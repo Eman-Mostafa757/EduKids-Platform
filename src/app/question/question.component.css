@@ -154,17 +154,19 @@ body {
   padding: 10px 18px;
   border-radius: 10px;
   border: none;
-  margin-top: 25px;
-  margin-right: 10px;
   font-size: 16px;
   font-weight: bold;
+  margin: 20px 0 10px 10px; /* خلي المسافة من الشمال بس */
+  display: inline-block; /* بدل block عشان ما ييجي في النص */
   transition: 0.3s ease;
 }
+
 
 .back-button:hover {
   background-color: #bb5959;
   transform: scale(1.05);
 }
+
 
 /* Animations */
 @keyframes popIn {
@@ -265,12 +267,16 @@ body {
   }
 
   .question-box h2 {
-    font-size: 20px;
+    font-size: 18px; /* رقم السؤال يصغر شوية */
   }
 
-  .read-button,
+  .read-button {
+    font-size: 14px;
+    padding: 6px 12px;
+    top: 12px;
+    right: 12px;
+  }
   .next-button,
-  .back-button,
   .retry-button {
     font-size: 16px;
     padding: 10px 16px;
@@ -312,11 +318,12 @@ body {
   .reward-img {
     width: 60px;
   }
+
 }
 
 /* لجعل الأزرار أكثر تناسقًا على الشاشات الصغيرة */
 @media (max-width: 480px) {
-  .read-button,
+
   .next-button,
   .back-button,
   .retry-button {
@@ -326,12 +333,22 @@ body {
     display: inline-block; /* يمنع الأزرار من التمدد بشكل كامل */
     text-align: center; /* لضمان محاذاة النص داخل الأزرار */
   }
-  
+  .question-box h2 {
+    font-size: 18px; /* رقم السؤال يصغر شوية */
+  }
+
+  .read-button {
+    font-size: 14px;
+    padding: 6px 12px;
+    top: 12px;
+    right: 12px;
+  }
   .back-button {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 10;
+    font-size: 14px;
+    padding: 8px 14px;
+    margin: 10px 0 0 10px; /* يخليه تحت الهيدر وعلى الشمال */
+    display: inline-block;
+    position: static; /* مهم جدًا علشان ما يطلعش فوق */
   }
 }
 
@@ -349,7 +366,16 @@ body {
   }
 
 
-  .read-button,
+  .question-box h2 {
+    font-size: 18px; /* رقم السؤال يصغر شوية */
+  }
+
+  .read-button {
+    font-size: 14px;
+    padding: 6px 12px;
+    top: 12px;
+    right: 12px;
+  }
   .next-button,
   .option-button {
     font-size: 14px;
@@ -360,15 +386,9 @@ body {
 
   .back-button {
     font-size: 14px;
-    padding: 8px 12px;
-    margin: 10px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 10;
-    width: auto; /* التأكد أن الزر يظهر بمقاس مناسب */
+    padding: 8px 14px;
+    margin-left: 10px;
   }
-
   /* لضبط الصور مع الأزرار */
   .question-image,
   .option-image {

@@ -50,7 +50,7 @@
 
   <div class="feedback" *ngIf="showFeedback">
     <p [ngClass]="isCorrectAnswer ? 'correct' : 'wrong'">
-      {{ isCorrectAnswer ? '✅ إجابة صحيحة!' : '❌ خطأ! جرّب تاني.' }}
+      {{ isCorrectAnswer ? '✅ إجابة صحيحة' : '❌ خطأ! جرّب تاني.' }}
     </p>
     <div class="reward" *ngIf="showReward">
       <img src="assets/images/party.png" alt="Star" class="reward-img" />

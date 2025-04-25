@@ -1,0 +1,32 @@
+<div class="container">
+  <p>اختر القسم:</p>
+  <label *ngFor="let section of schoolSections">
+    <input
+    type="radio"
+    name="section"
+    [(ngModel)]="selectedSection"
+    [value]="section.value"
+    (change)="onSectionChange()"
+  />
+  
+    {{ section.label }}
+  </label>
+
+  <div *ngIf="selectedSection">
+    <p>اختر الصف:</p>
+    <select [(ngModel)]="selectedGrade">
+      <option *ngFor="let grade of getGrades()" [value]="grade">{{ grade }}</option>
+    </select>
+  </div>
+
+  <div *ngIf="selectedSection && selectedGrade">
+    <p>اختر المادة:</p>
+    <select [(ngModel)]="selectedSubject">
+      <option *ngFor="let subject of getSubjects()" [value]="subject">{{ subject }}</option>
+    </select>
+  </div>
+
+  <div *ngIf="selectedSection && selectedGrade && selectedSubject">
+    <button (click)="startQuestions()">ابدأ الأسئلة</button>
+  </div>
+</div>

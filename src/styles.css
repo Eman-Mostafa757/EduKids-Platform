@@ -1,0 +1,89 @@
+body {
+  background-image: url('assets/images/6cb58eef-2009-4f8d-937a-7cd1f1350b1a.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fef8e7;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/* التنسيق العام للهيدر */
+.school-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  /* تغيير من sticky إلى relative */
+  position: relative;
+  z-index: 1000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.school-logo {
+  height: 60px;
+  margin-right: 15px;
+}
+
+.school-names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.school-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.school-name-en {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
+/* الميديا كويري للأجهزة الصغيرة */
+@media (max-width: 768px) {
+  .school-header {
+    padding: 10px 15px;
+  }
+
+  .school-logo {
+    height: 50px;  /* تصغير حجم الشعار */
+    margin-right: 10px;
+  }
+
+  .school-name {
+    font-size: 18px; /* تصغير حجم النص */
+  }
+
+  .school-name-en {
+    font-size: 12px; /* تصغير النص الإنجليزي */
+  }
+}
+
+@media (max-width: 480px) {
+  .school-header {
+    padding: 10px 10px;
+  }
+
+  .school-logo {
+    height: 40px;  /* تصغير حجم الشعار أكثر */
+    margin-right: 8px;
+  }
+
+  .school-name {
+    font-size: 16px;  /* تقليل حجم النص بشكل أكبر */
+  }
+
+  .school-name-en {
+    font-size: 10px;  /* تقليل النص الإنجليزي ليظهر بشكل جيد */
+  }
+}

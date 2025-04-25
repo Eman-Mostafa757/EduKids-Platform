@@ -7798,7 +7798,20 @@ export const questionsData = {
           correctAnswer: 'assets/english/5 pounds.jpeg'
         }
       ],
-      Discover: [],
+      Discover: [
+        {
+          content: { 
+            speakAnswer:true,
+            image :"assets/english/كيكة.jfif",
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'Cake' },
+            { type: 'text', value: 'Pizza' },
+          ],
+          correctAnswer: 'Cake'
+        },
+      ],
       "English Connect +":[
         {
           content: { 

@@ -3731,7 +3731,7 @@ export const questionsData = {
         },
         {
           content: {
-            text:"هل المغناطيس يجذب الذهب؟",
+            text:"هل المغناطيس يجذب البلاستيك",
             audio:"assets/audio/question/متعدد ص ع/هل المغناطيس يجذب الذهب.mp3"
           },
           language: 'ar-EG',
@@ -5484,11 +5484,11 @@ export const questionsData = {
           },
           language: "en-US",
           options: [
-            { type: "text", value: "12" },
+            { type: "text", value: "9" },
             { type: "text", value: "11" },
             { type: "text", value: "10"},
           ],
-          correctAnswer:"12"
+          correctAnswer:"9"
         },
         {
           content: {
@@ -5635,7 +5635,7 @@ export const questionsData = {
             { type: "text", value: "5th"},
             { type: "text", value: "3rd"},
           ],
-          correctAnswer: "3rd"
+          correctAnswer: "5th"
         },
         {
           content: {
@@ -5707,7 +5707,7 @@ export const questionsData = {
             { type: "text", value: "7"},
             { type: "text", value: "5"},
           ],
-          correctAnswer: "6"
+          correctAnswer: "5"
         },
         {
           content: {
@@ -5827,7 +5827,7 @@ export const questionsData = {
             { type: "text", value: "slide" },
             { type: "text", value: "both of them" },
           ],
-          correctAnswer: "both of them"
+          correctAnswer: "Roll"
         },
         {
           content: {
@@ -5840,7 +5840,7 @@ export const questionsData = {
             { type: "text", value: "slide" },
             { type: "text", value: "both of them" },
           ],
-          correctAnswer: "slide"
+          correctAnswer: "both of them"
         },
         {
           content: {
@@ -5853,7 +5853,7 @@ export const questionsData = {
             { type: "text", value: "slide" },
             { type: "text", value: "both of them" },
           ],
-          correctAnswer: "Roll"
+          correctAnswer: "slide"
         },
         {
           content: {
@@ -5892,7 +5892,7 @@ export const questionsData = {
             { type: "text", value: "Slide" },
             { type: "text", value: "Both of them" }
           ],
-          correctAnswer: "Roll"
+          correctAnswer: "Slide"
         },
         {
           content: {
@@ -5905,7 +5905,7 @@ export const questionsData = {
             { type: "image", value: "assets/متعدد ص ع/قطن.jpg" },
             { type: "image", value: "assets/متعدد ص ع/خروف2.jpg" }
           ],
-          correctAnswer: "assets/متعدد ص ع/قطن.jpg"
+          correctAnswer: "assets/متعدد ص ع/شجرة.jpg"
         },
         {
           content: {
@@ -5918,7 +5918,7 @@ export const questionsData = {
             { type: "image", value: "assets/متعدد ص ع/قطن.jpg" },
             { type: "image", value: "assets/متعدد ص ع/خروف2.jpg" }
           ],
-          correctAnswer: "assets/متعدد ص ع/خروف2.jpg"
+          correctAnswer: "assets/متعدد ص ع/قطن.jpg"
         },
         {
           content: {
@@ -5930,7 +5930,7 @@ export const questionsData = {
             { type: "image", value: "assets/متعدد ص ع/قطن.jpg" },
             { type: "image", value: "assets/متعدد ص ع/خروف2.jpg" }
           ],
-          correctAnswer: "assets/متعدد ص ع/شجرة.jpg" 
+          correctAnswer: "assets/متعدد ص ع/خروف2.jpg" 
         },
         {
           content: {
@@ -5969,7 +5969,7 @@ export const questionsData = {
             { type: "text", value: "Metal" },
             { type: "text", value: "Fabric" }
           ],
-          correctAnswer: "Plastic"
+          correctAnswer: "Fabric"
         },
         {
           content: {
@@ -6047,7 +6047,7 @@ export const questionsData = {
             { type: "text", value: "Paper" },
             { type: "text", value: "Wood" }
           ],
-          correctAnswer: "Plastic"
+          correctAnswer: "Paper"
         },
         {
           content: {
@@ -6060,7 +6060,7 @@ export const questionsData = {
             { type: "text", value: "Push" },
             { type: "text", value: "Both of them" }
           ],
-          correctAnswer: "Push"
+          correctAnswer: "Pull"
         },
         {
           content: {
@@ -6099,7 +6099,7 @@ export const questionsData = {
             { type: "text", value: "Push" },
             { type: "text", value: "Both of them" }
           ],
-          correctAnswer: "Push"
+          correctAnswer: "Both of them"
         },
         {
           content: {
@@ -6148,21 +6148,21 @@ export const questionsData = {
             { type: "text", value: "Flower" },
             { type: "text", value: "Stem" }
           ],
-          correctAnswer: "Leaf"
+          correctAnswer: "Flower"
         },
         {
           content: {
             image:"assets/متعدد ص ع/عود.jpg",
 
-            text: "Which of the following is called roots?",
+            text: "This part of the plant is called ------",
           },
           language: "en-US",
           options: [
-            { type: "text", value: "Roots" },
+            { type: "text", value: "Stem" },
             { type: "text", value: "Leaves" },
             { type: "text", value: "Flower" }
           ],
-          correctAnswer: "Roots"
+          correctAnswer: "Stem"
         },
         {
           content: {
@@ -6176,7 +6176,7 @@ export const questionsData = {
             { type: "text", value: "flower" },
             { type: "text", value: "leaf" }
           ],
-          correctAnswer: "Stem"
+          correctAnswer: "leaf"
         },
         
         {
@@ -6317,7 +6317,7 @@ export const questionsData = {
             { type: "image", value: "assets/متعدد ص ع/جمل2.jpg" },
             { type: "image", value: "assets/متعدد ص ع/جمل3.jpg" }
           ],
-          correctAnswer: "assets/متعدد ص ع/جمل1.jpg" 
+          correctAnswer: "assets/متعدد ص ع/جمل2.jpg" 
         },
         {
           content: {
@@ -8935,7 +8935,7 @@ export const questionsData = {
         },
         {
           content: { 
-            text:"If money less in the bank it caused withdrawal------"
+            text:"If money less in the bank it caused ------"
           },
           language: 'en-US',
           options: [
@@ -8957,7 +8957,7 @@ export const questionsData = {
 
 
           ],
-          correctAnswer: 'Butcher'
+          correctAnswer: 'Teller'
         },
         {
           content: { 
@@ -9023,10 +9023,10 @@ export const questionsData = {
           },
           language: 'en-US',
           options: [
-            { type: 'text', value: 'Communicate' },
+            { type: 'text', value: 'Communication' },
             { type: 'text', value: 'Technology' },
           ],
-          correctAnswer: 'Communicate'
+          correctAnswer: 'Communication'
         },
         {
           content: { 
@@ -9035,9 +9035,9 @@ export const questionsData = {
           language: 'en-US',
           options: [
             { type: 'text', value: 'train' },
-            { type: 'text', value: 'boot' },
+            { type: 'text', value: 'boat' },
           ],
-          correctAnswer: 'boot'
+          correctAnswer: 'boat'
         },
         {
           content: { 

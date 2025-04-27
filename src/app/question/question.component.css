@@ -12,7 +12,7 @@ body {
   border-radius: 24px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   max-width: 600px;
-  margin: 40px auto;
+  margin: 20px auto;
   text-align: center;
   direction: ltr;
   animation: popIn 0.5s ease;
@@ -25,12 +25,17 @@ body {
 .question-box h2 {
   color: #4b5fab;
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+.question-box h1 {
+  color: #000000;
+  font-size: 25px;
+  margin-bottom: 0px;
 }
 .read-button {
   background-color: #b0db3a;
   color: #5f2f75;
-  font-size: 18px;
+  font-size: 15px;
   padding: 10px 20px;
   border-radius: 12px;
   border: none;
@@ -49,8 +54,8 @@ body {
 .options {
   display: flex;
   flex-direction: column;
-  gap: 13px;
-  margin-top: 20px;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .option-button {
@@ -84,7 +89,7 @@ body {
 .feedback p {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .feedback p.correct {
@@ -96,13 +101,17 @@ body {
 }
 
 .reward-img {
-  width: 80px;
-  margin-top: 15px;
+  width: 70px;
+  margin-top: 20px;
+}
+.rewarded-img {
+  width: 50px;
+  margin-top: 10px;
 }
 .navigation-buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 8px;
   padding: 0 20px;
 }
 
@@ -202,7 +211,7 @@ body {
   padding: 10px 20px;
   border-radius: 10px;
   width: fit-content;
-  margin: 20px auto;
+  margin: 5px auto;
   font-weight: bold;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
@@ -296,7 +305,7 @@ body {
   }
 
   .question-box h2 {
-    font-size: 18px; /* رقم السؤال يصغر شوية */
+    font-size: 15px; /* رقم السؤال يصغر شوية */
   }
 
   .read-button {
@@ -346,7 +355,10 @@ body {
   }
 
   .reward-img {
-    width: 60px;
+    width: 40px;
+  }
+  .rewarded-img {
+    width: 40px;
   }
 
 }
@@ -364,7 +376,7 @@ body {
     text-align: center; /* لضمان محاذاة النص داخل الأزرار */
   }
   .question-box h2 {
-    font-size: 18px; /* رقم السؤال يصغر شوية */
+    font-size: 15px; /* رقم السؤال يصغر شوية */
   }
 
   .read-button {
@@ -387,7 +399,7 @@ body {
 
 @media (max-width: 768px) {
   .question-box {
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
     max-width: 100%;
     height: auto;
@@ -400,7 +412,7 @@ body {
 
 
   .question-box h2 {
-    font-size: 18px; /* رقم السؤال يصغر شوية */
+    font-size: 15px; /* رقم السؤال يصغر شوية */
   }
 
   .read-button {
@@ -434,14 +446,20 @@ body {
   z-index: 1000;  
   }
   /* لضبط الصور مع الأزرار */
-  .question-image,
+  .question-image {
+    max-width: 90%;
+    height: auto;
+  }
   .option-image {
     max-width: 100%;
     height: auto;
   }
   
   .reward-img {
-    width: 60px;
+    width: 40px;
+  }
+  .rewarded-img {
+    width: 30px;
   }
 }
 

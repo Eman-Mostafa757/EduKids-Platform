@@ -12,7 +12,7 @@
   </ng-container>
 
   <ng-template #englishTitle>
-    <h2>Question {{ currentQuestionIndex + 1 }}</h2>
+    <h1>Question {{ currentQuestionIndex + 1 }}</h1>
   </ng-template>
 
   
@@ -52,7 +52,7 @@
       {{ isCorrectAnswer ? '✅ إجابة صحيحة' : '❌ خطأ! جرّب تاني.' }}
     </p>
     <div class="reward" *ngIf="showReward">
-      <img src="assets/images/party.png" alt="Star" class="reward-img" />
+      <img src="assets/images/party.png" alt="Star" class="rewarded-img" />
     </div>
   </div>
 <!-- 

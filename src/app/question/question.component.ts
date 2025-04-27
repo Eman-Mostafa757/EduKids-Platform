@@ -16,8 +16,8 @@ export class QuestionComponent {
   warningStarted: boolean = false;
   timerSecondsPerQuestion = 10; 
 
-  timerMinutes = 6; 
-  timeLeftInSeconds = this.timerMinutes * 60;
+ 
+  timeLeftInSeconds = 0;
   timerInterval: any;
   timeUp = false;
   currentAudio: HTMLAudioElement | null = null;

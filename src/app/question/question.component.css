@@ -318,7 +318,7 @@ body {
   .next-button,
   .previous-button,
   .retry-button {
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px 16px;
     width: 100%;
     margin-top: 10px;
@@ -370,7 +370,7 @@ body {
   .next-button,
   .previous-button,
   .retry-button {
-    font-size: 14px;
+    font-size: 18px;
     padding: 8px 12px;
     width: auto; /* يضمن عدم أخذ العرض الكامل */
     display: inline-block; /* يمنع الأزرار من التمدد بشكل كامل */
@@ -427,7 +427,7 @@ body {
   }
   .next-button,
   .previous-button {
-    font-size: 10px;
+    font-size: 15px;
     padding: 10px;
     width: auto; /* التأكد من أن الأزرار لا تأخذ العرض الكامل */
     display: inline-block; /* يمنع الأزرار من التمدد بشكل كامل */

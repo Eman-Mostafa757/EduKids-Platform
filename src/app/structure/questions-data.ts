@@ -2001,10 +2001,10 @@ export const questionsData = {
           language: 'ar-EG',
           options: [
             { type: 'text', value: 'ث' },
-            { type: 'text', value: 'ـث' },
+            { type: 'text', value: 'ـثـ ' },
 
           ],
-          correctAnswer: 'ـث'
+          correctAnswer: 'ـثـ '
         },
         {
           content: {
@@ -2012,11 +2012,11 @@ export const questionsData = {
           },
           language: 'ar-EG',
           options: [
-            { type: 'text', value: 'ث' },
+            { type: 'text', value: 'ثـ' },
             { type: 'text', value: 'ـث' },
 
           ],
-          correctAnswer: 'ث'
+          correctAnswer: 'ثـ'
         },
         {
           content: {
@@ -2267,7 +2267,7 @@ export const questionsData = {
             { type: 'text', value: 'ـك' }
 
           ],
-          correctAnswer: 'ـكـ'
+          correctAnswer: 'ـك'
         },
         {
           content: {
@@ -2277,10 +2277,10 @@ export const questionsData = {
           language: 'ar-EG',
           options: [
             { type: 'text', value: 'ك' },
-            { type: 'text', value: 'ـك' }
+            { type: 'text', value: 'ـكـ' }
 
           ],
-          correctAnswer: 'ـك'
+          correctAnswer: 'ـكـ'
         },
         {
           content: {

@@ -330,7 +330,7 @@ body {
 
   .option-button {
     font-size: 30px;
-    padding: 9px;
+    padding: 5px;
   }
 
   .option-image {
@@ -429,8 +429,8 @@ body {
     display: inline-block; /* يمنع الأزرار من التمدد بشكل كامل */
   }
   .option-button {
-    font-size: 39px;
-    padding: 10px;
+    font-size: 30px;
+    padding: 3px;
     width: auto; /* التأكد من أن الأزرار لا تأخذ العرض الكامل */
     display: inline-block; /* يمنع الأزرار من التمدد بشكل كامل */
   }
@@ -447,7 +447,7 @@ body {
   }
   /* لضبط الصور مع الأزرار */
   .question-image {
-    max-width: 90%;
+    max-width: 80%;
     height: auto;
   }
   .option-image {

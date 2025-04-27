@@ -2983,7 +2983,7 @@ export const questionsData = {
           content: {
             audio: 'assets/audio/question/math/قارن بين كل عددين بأستخدام.mp3',
             text: "( < , > , =) قارن بين كل عددين بأستخدام ",
-            image: 'assets/رياضة ك ع/23_15كعpng.png'
+            image: 'assets/رياضة ك ع/تلاتة وعشرين وخمستاشر.png'
           },
           language: "ar-EG",
           options: [
@@ -2998,20 +2998,7 @@ export const questionsData = {
           content: {
            
             text: "( < , > , =) قارن بين كل عددين بأستخدام ",
-            image: 'assets/رياضة ك ع/30_80.png'
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: ">" },
-            { type: "text", value: "<" },
-            { type: "text", value: "=" }
-          ],
-          correctAnswer: ">"
-        },
-        {
-          content: {
-            text: "( < , > , =) قارن بين كل عددين بأستخدام ",
-            image: 'assets/رياضة ك ع/47_45.png'
+            image: 'assets/رياضة ك ع/تلاتين وخمسين.png'
           },
           language: "ar-EG",
           options: [
@@ -3037,7 +3024,7 @@ export const questionsData = {
         {
           content: {
             text: "( < , > , =) قارن بين كل عددين بأستخدام ",
-            image: 'assets/رياضة ك ع/تلاتين وخمسين.png'
+            image: 'assets/رياضة ك ع/سبعة واربعين وخمسةواربعين.png'
           },
           language: "ar-EG",
           options: [
@@ -3047,6 +3034,7 @@ export const questionsData = {
           ],
           correctAnswer: "<"
         },
+
         {
           content: {
             text: "( < , > , =) قارن بين كل عددين بأستخدام ",
@@ -5406,8 +5394,987 @@ export const questionsData = {
 
       ],
       Math: [
+        {
+          content: {
+            text: "Choose the second apple",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/math Kg1/1تفاحة.jpg" },
+            { type: "image", value: "assets/math Kg1/2تفاحة.jpg" },
+            { type: "image", value: "assets/math Kg1/3تفاحة.jpg"},
+          ],
+          correctAnswer: "assets/math Kg1/2تفاحة.jpg"
+        },
+        {
+          content: {
+            text: "Choose the first apple",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/math Kg1/1تفاحة.jpg" },
+            { type: "image", value: "assets/math Kg1/2تفاحة.jpg" },
+            { type: "image", value: "assets/math Kg1/3تفاحة.jpg"},
+          ],
+          correctAnswer:"assets/math Kg1/1تفاحة.jpg"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/تلات مراكب ومركب.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "2" },
+            { type: "text", value: "1" },
+            { type: "text", value: "4"},
+          ],
+          correctAnswer:"4"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/ست احصنة وحصان.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "5" },
+            { type: "text", value: "7" },
+            { type: "text", value: "8"},
+          ],
+          correctAnswer:"7"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/تلات دباديب وخمس دباديب.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "9" },
+            { type: "text", value: "10" },
+            { type: "text", value: "8"},
+          ],
+          correctAnswer:"8"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/اربع عربيات وعربيتين.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "7" },
+            { type: "text", value: "6" },
+            { type: "text", value: "5"},
+          ],
+          correctAnswer:"6"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/خمس دباديب.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "12" },
+            { type: "text", value: "11" },
+            { type: "text", value: "10"},
+          ],
+          correctAnswer:"10"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/ست بطات وتلات بطات.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "12" },
+            { type: "text", value: "11" },
+            { type: "text", value: "10"},
+          ],
+          correctAnswer:"12"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/دبدوبين ودبدوب.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "4" },
+            { type: "text", value: "3" },
+            { type: "text", value: "5"},
+          ],
+          correctAnswer:"3"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/تمن تفاحات وتفاحة.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "7" },
+            { type: "text", value: "9" },
+            { type: "text", value: "8"},
+          ],
+          correctAnswer:"9"
+        },
+   
+        {
+          content: {
+            image:"assets/math Kg1/ست كور وكورة.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "7" },
+            { type: "text", value: "9" },
+            { type: "text", value: "8"},
+          ],
+          correctAnswer:"7"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/تمن مثلثات ومثلثين.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "8" },
+            { type: "text", value: "6" },
+            { type: "text", value: "5"},
+          ],
+          correctAnswer:"6"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/خمس وردات.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "1" },
+            { type: "text", value: "2" },
+            { type: "text", value: "0"},
+          ],
+          correctAnswer:"0"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/ست نجوم ونجمتين.jpg",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "7" },
+            { type: "text", value: "10" },
+            { type: "text", value: "8"},
+          ],
+          correctAnswer:"8"
+        },
+        {
+          content: {
+            text:"which of the following is a cube",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/math Kg1/مكعب.jpg" },
+            { type: "image", value: "assets/math Kg1/مخروط.jpg"},
+            { type: "image", value: "assets/math Kg1/مثلث.jpg"},
+          ],
+          correctAnswer: "assets/math Kg1/مكعب.jpg"
+        },
+        {
+          content: {
+            text:"which shape like a cone",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/math Kg1/مكعب.jpg" },
+            { type: "image", value: "assets/math Kg1/بارتي.jpeg"},
+            { type: "image", value: "assets/math Kg1/كرة.jpg"},
+          ],
+          correctAnswer: "assets/math Kg1/بارتي.jpeg"
+        },
+        {
+          content: {
+            text:"Choose the heaviest animal",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/english/فيل.jfif" },
+            { type: "image", value: "assets/english/حصان.jfif"},
+            { type: "image", value: "assets/arabic/كلب.jpg"},
+          ],
+          correctAnswer: "assets/english/فيل.jfif"
+        },
+        {
+          content: {
+            text:"The cat is ------ the table",
+            image:"assets/math Kg1/قطة تحت.jpg"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "below" },
+            { type: "text", value: "above"},
+            { type: "text", value: "behind"},
+          ],
+          correctAnswer: "below"
+        },
+        {
+          content: {
+            text:"The cat is ------ the table",
+            image:"assets/math Kg1/قطة فوق.jpg"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "below" },
+            { type: "text", value: "above"},
+            { type: "text", value: "behind"},
+          ],
+          correctAnswer: "above"
+        },
+        {
+          content: {
+            text:"The sign of the word fifth is",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "1st" },
+            { type: "text", value: "5th"},
+            { type: "text", value: "3rd"},
+          ],
+          correctAnswer: "3rd"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/تمن بلونات وبلونة.jpg"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "8" },
+            { type: "text", value: "9"},
+            { type: "text", value: "7"},
+          ],
+          correctAnswer: "7"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/تسع وردات ووردة.jpg"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "10" },
+            { type: "text", value: "9"},
+            { type: "text", value: "11"},
+          ],
+          correctAnswer: "10"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/سبع قلوب وقلبين.jpg"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "6" },
+            { type: "text", value: "9"},
+            { type: "text", value: "5"},
+          ],
+          correctAnswer: "5"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/تلاتة وعشرة.jpg"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "6" },
+            { type: "text", value: "7"},
+            { type: "text", value: "5"},
+          ],
+          correctAnswer: "7"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/اربعة وعشرة.jpg"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "6" },
+            { type: "text", value: "7"},
+            { type: "text", value: "5"},
+          ],
+          correctAnswer: "6"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/خمسة وعشرة.jpg"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "6" },
+            { type: "text", value: "7"},
+            { type: "text", value: "5"},
+          ],
+          correctAnswer: "6"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/مثلث.jpg",
+            text:"Triangle has ----- corners"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "3" },
+            { type: "text", value: "2"},
+            { type: "text", value: "1"},
+          ],
+          correctAnswer: "3"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/مثلث.jpg",
+            text:"Triangle has ----- slides"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "2" },
+            { type: "text", value: "1"},
+            { type: "text", value: "3"},
+          ],
+          correctAnswer: "3"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/مستطيل.jpg",
+            text:"Rectangle has ----- corners"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "3" },
+            { type: "text", value: "2"},
+            { type: "text", value: "4"},
+          ],
+          correctAnswer: "4"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/مستطيل.jpg",
+            text:"Rectangle has ----- slides"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "3" },
+            { type: "text", value: "2"},
+            { type: "text", value: "4"},
+          ],
+          correctAnswer: "4"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/مربع.jpg",
+            text:"Square has ----- corners"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "3" },
+            { type: "text", value: "2"},
+            { type: "text", value: "4"},
+          ],
+          correctAnswer: "4"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/مربع.jpg",
+            text:"Square has ----- slides"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "3" },
+            { type: "text", value: "2"},
+            { type: "text", value: "4"},
+          ],
+          correctAnswer: "4"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/دايرة.jpg",
+            text:"Circle has ----- slides"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "3" },
+            { type: "text", value: "0"},
+            { type: "text", value: "4"},
+          ],
+          correctAnswer: "0"
+        },
+        {
+          content: {
+            image:"assets/math Kg1/دايرة.jpg",
+            text:"Circle has ----- corners"
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "3" },
+            { type: "text", value: "0"},
+            { type: "text", value: "4"},
+          ],
+          correctAnswer: "0"
+        },
+   
       ],
-      Discover: [
+      Discover:[
+        {
+          content: {
+            image:"assets/متعدد ص ع/كرة.jpg",
+            text: "The ball can……",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Roll" },
+            { type: "text", value: "slide" },
+            { type: "text", value: "both of them" },
+          ],
+          correctAnswer: "both of them"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/قلم.jpg",
+            text: "Pencil can…….",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Roll" },
+            { type: "text", value: "slide" },
+            { type: "text", value: "both of them" },
+          ],
+          correctAnswer: "slide"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/مكعب.png",
+            text: "It’s can…..",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Roll" },
+            { type: "text", value: "slide" },
+            { type: "text", value: "both of them" },
+          ],
+          correctAnswer: "Roll"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/اسطوانة.jpg",
+            text: "A cylinder can…",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Roll" },
+            { type: "text", value: "slide" },
+            { type: "text", value: "both of them" },
+          ],
+          correctAnswer: "both of them"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/2كتاب.jpg",
+            text: "What’s the movement of the book?",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Roll" },
+            { type: "text", value: "slide" },
+            { type: "text", value: "both of them" },
+          ],
+          correctAnswer: "slide"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/زوحليقة.jpg",
+            text: "It’s an example of a …..",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Roll" },
+            { type: "text", value: "Slide" },
+            { type: "text", value: "Both of them" }
+          ],
+          correctAnswer: "Roll"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/ورق.jpg",
+            text: "Paper is made of",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/شجرة.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/قطن.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/خروف2.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/قطن.jpg"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/جيبة.jpg",
+            text: "Skirt is made of ……",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/شجرة.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/قطن.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/خروف2.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/خروف2.jpg"
+        },
+        {
+          content: {
+            text: "Wool is made of….",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/شجرة.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/قطن.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/خروف2.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/شجرة.jpg" 
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/كرسي2.jpg",
+            text: "This chair is made of……",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Wood" },
+            { type: "text", value: "Plastic" },
+            { type: "text", value: "Metal" }
+          ],
+          correctAnswer: "Wood"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/تيشيرت.jpg",
+            text: "It’s made of…..",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Paper" },
+            { type: "text", value: "Metal" },
+            { type: "text", value: "Fabric" }
+          ],
+          correctAnswer: "Fabric"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/شنطة.jpg",
+            text: "This bag is made of…..",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Plastic" },
+            { type: "text", value: "Metal" },
+            { type: "text", value: "Fabric" }
+          ],
+          correctAnswer: "Plastic"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/قزازة.jpg",
+            text: "The bottle is made of……",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Metal" },
+            { type: "text", value: "Plastic" },
+            { type: "text", value: "Wood" }
+          ],
+          correctAnswer: "Plastic"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/باب.jpg",
+            text: "The door is made of……",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Paper" },
+            { type: "text", value: "Wood" },
+            { type: "text", value: "Metal" }
+          ],
+          correctAnswer: "Wood"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/معلقة.jpg",
+
+            text: "Spoon is made of….",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Metal" },
+            { type: "text", value: "Plastic" },
+            { type: "text", value: "Paper" }
+          ],
+          correctAnswer: "Metal"
+        },
+        {
+          content: {
+            text: "All the following are made of metal except…..",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/جنيه.jpeg" },
+            { type: "image", value: "assets/متعدد ص ع/كتاب.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/مسمار.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/كتاب.jpg"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/قلم.jpg",
+            text: "Pencil is made of……",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Wood" },
+            { type: "text", value: "Plastic" },
+            { type: "text", value: "Metal" }
+          ],
+          correctAnswer: "Wood"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/جنيه ورق.jpg",
+            text: "Egyptian pound is made of ……",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Plastic" },
+            { type: "text", value: "Paper" },
+            { type: "text", value: "Wood" }
+          ],
+          correctAnswer: "Plastic"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/يجر.jpg",
+            text: "It’s an example of a…..",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Pull" },
+            { type: "text", value: "Push" },
+            { type: "text", value: "Both of them" }
+          ],
+          correctAnswer: "Push"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/قط.jpg",
+            text: "It’s an example of a…..",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Pull" },
+            { type: "text", value: "Push" },
+            { type: "text", value: "Both of them" }
+          ],
+          correctAnswer: "Push"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/ولد يدحرج.jpg",
+            text: "It’s an example of a…..",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Pull" },
+            { type: "text", value: "Push" },
+            { type: "text", value: "Both of them" }
+          ],
+          correctAnswer: "Push"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/يدفع الباب.jpg",
+            text: "It’s an example of a…..",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Pull" },
+            { type: "text", value: "Push" },
+            { type: "text", value: "Both of them" }
+          ],
+          correctAnswer: "Push"
+        },
+        {
+          content: {
+            text: "Circle around the air transportation:",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/قطار.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/طائرة.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/سفينة.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/طائرة.jpg"
+        },
+        {
+          content: {
+            text: "Circle around the land transportation:",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/سيارة.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/مركبة في الميا.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/سفينة.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/سيارة.jpg"
+        },
+        {
+          content: {
+            text: "Circle around the water transportation:",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/سيارة.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/قطار.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/سفينة.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/سفينة.jpg"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/وردة.jpg",
+            text: "This part of the plant is called…..",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Leaf" },
+            { type: "text", value: "Flower" },
+            { type: "text", value: "Stem" }
+          ],
+          correctAnswer: "Leaf"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/عود.jpg",
+
+            text: "Which of the following is called roots?",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Roots" },
+            { type: "text", value: "Leaves" },
+            { type: "text", value: "Flower" }
+          ],
+          correctAnswer: "Roots"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/ورقة شجر.jpg",
+
+            text: "It’s a ---",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Stem" },
+            { type: "text", value: "flower" },
+            { type: "text", value: "leaf" }
+          ],
+          correctAnswer: "Stem"
+        },
+        
+        {
+          content: {
+            image:"assets/متعدد ص ع/كرة بينك.jpg",
+            text: "The ball can….. when we put it in the water.",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Sink" },
+            { type: "text", value: "Float" },
+            { type: "text", value: "Not of all" }
+          ],
+          correctAnswer: "Float"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/مسمار.jpg",
+            text: "A nail can……..when we put it in the water.",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Sink" },
+            { type: "text", value: "Float" },
+            { type: "text", value: "Not of all" }
+          ],
+          correctAnswer: "Sink"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/ماربيل.jpg",
+
+            text: "The marble…….when we put it in the water.",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Sinks" },
+            { type: "text", value: "Floats" },
+            { type: "text", value: "Not of all" }
+          ],
+          correctAnswer: "Sinks"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/ورقة شجر.jpg",
+            text: "The leaf can……when we put it in the water.",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Sink" },
+            { type: "text", value: "Float" },
+            { type: "text", value: "Not of all" }
+          ],
+          correctAnswer: "Float"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/مكعبات.jpg",
+            text: "The cube…….when we put it in the water.",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Sinks" },
+            { type: "text", value: "Floats" },
+            { type: "text", value: "Not of all" }
+          ],
+          correctAnswer: "Sinks"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/قزازة.jpg",
+            text: "A filled plastic bottle of water….when we put it in the water.",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Sink" },
+            { type: "text", value: "Float" },
+            { type: "text", value: "Not of all" }
+          ],
+          correctAnswer: "Sink"
+        },
+        {
+          content: {
+            text: "What do you want?",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/قزازة.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/كرة.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/بيت.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/كرة.jpg" 
+        },
+        {
+          content: {
+            text: "What do you need ?",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/لحمة.png" },
+            { type: "image", value: "assets/متعدد ص ع/مصاصات.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/ستيتش.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/لحمة.png"
+        },
+        {
+          content: {
+            text: "Which of the following items considered of needs:",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/بنبوني.png" },
+            { type: "image", value: "assets/متعدد ص ع/بيت.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/دبدوب.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/بيت.jpg"
+        },
+        {
+          content: {
+            text: "Which of the following items considered from wants:",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/بيت.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/قزازة.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/دبدوب.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/دبدوب.jpg"
+        },
+        {
+          content: {
+            imagr:"assets/متعدد ص ع/جمل.jpg",
+            text: "Circle the part that helps the camel for adaptation:",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/جمل1.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/جمل2.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/جمل3.jpg" }
+          ],
+          correctAnswer: "assets/متعدد ص ع/جمل1.jpg" 
+        },
+        {
+          content: {
+            imagr:"assets/متعدد ص ع/خياطة.jpg",
+
+            text: "Seamstress can make …..",
+          },
+          language: "en-US",
+          options: [
+            { type: "image", value: "assets/متعدد ص ع/ترابيزة.jpg" },
+            { type: "image", value: "assets/متعدد ص ع/لحمة.png" },
+            { type: "image", value: "assets/متعدد ص ع/تيشيرت.jpg" }
+          ],
+          correctAnswer:"assets/متعدد ص ع/تيشيرت.jpg" 
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/فيل.jpg",
+            text: "The elephant considered of…...…",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Animals" },
+            { type: "text", value: "Plant" },
+            { type: "text", value: "Non living thing" }
+          ],
+          correctAnswer: "Animals"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/شجرة تفاح.jpg",
+
+            text: "The apple tree considered of……",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Animals" },
+            { type: "text", value: "Plant" },
+            { type: "text", value: "Non living thing" }
+          ],
+          correctAnswer: "Plant"
+        },
+        {
+          content: {
+            image:"assets/متعدد ص ع/حجر.jpg",
+            text: "The rock is considered of…..",
+          },
+          language: "en-US",
+          options: [
+            { type: "text", value: "Animals" },
+            { type: "text", value: "Plant" },
+            { type: "text", value: "Non living thing" }
+          ],
+          correctAnswer: "Non living thing"
+        }
+        
+
       ],
       'English Connect +': [
         {
@@ -7801,16 +8768,311 @@ export const questionsData = {
       Discover: [
         {
           content: { 
-            speakAnswer:true,
-            image :"assets/english/كيكة.jfif",
+            image :"assets/math Kg1/مبني.png",
+            text:"How many doors ?"
           },
           language: 'en-US',
           options: [
-            { type: 'text', value: 'Cake' },
-            { type: 'text', value: 'Pizza' },
+            { type: 'text', value: '1' },
+            { type: 'text', value: '2' },
+            { type: 'text', value: '3' },
+
           ],
-          correctAnswer: 'Cake'
+          correctAnswer: '1'
         },
+        {
+          content: { 
+            image :"assets/math Kg1/مبني.png",
+            text:"	What is the shape of the door ?"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'square' },
+            { type: 'text', value: 'circle' },
+            { type: 'text', value: 'rectangle' },
+
+          ],
+          correctAnswer: 'rectangle'
+        },
+        {
+          content: { 
+            image :"assets/math Kg1/مبني.png",
+            text:"How many windows ?"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: '12' },
+            { type: 'text', value: '13' },
+            { type: 'text', value: '14' },
+
+          ],
+          correctAnswer: '13'
+        },
+        {
+          content: { 
+            image :"assets/math Kg1/مبني.png",
+            text:"What is the shape of the windows ?"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'square' },
+            { type: 'text', value: 'circle' },
+            { type: 'text', value: 'rectangle' },
+
+
+          ],
+          correctAnswer: 'square'
+        },
+        {
+          content: { 
+            image :"assets/math Kg1/مبني.png",
+            text:"How many signs ?"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: '1' },
+            { type: 'text', value: '2' },
+            { type: 'text', value: '3' },
+
+
+          ],
+          correctAnswer: '1'
+        },
+        {
+          content: { 
+            image :"assets/math Kg1/مبني.png",
+            text:"What is the shape of the sign ?"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'square' },
+            { type: 'text', value: 'triangle' },
+            { type: 'text', value: 'rectangle' },
+
+
+          ],
+          correctAnswer: 'rectangle'
+        },
+        {
+          content: { 
+            image :"assets/math Kg1/مبني.png",
+            text:"Which word written in sign ?"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'School' },
+            { type: 'text', value: 'Bank' },
+            { type: 'text', value: 'Fire Station' },
+
+
+          ],
+          correctAnswer: 'School'
+        },
+         {
+          content: { 
+            text:"The thermometer tells us ----- "
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'temperature' },
+            { type: 'text', value: 'heart beats' },
+
+
+          ],
+          correctAnswer: 'temperature'
+        },
+        {
+          content: { 
+            text:"The stethoscope measure ------ "
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'temperature' },
+            { type: 'text', value: 'heart beats' },
+
+
+          ],
+          correctAnswer: 'heart beats'
+        },
+        {
+          content: { 
+            text:"The bandage tools of -----"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'farmer' },
+            { type: 'text', value: 'doctor' },
+
+
+          ],
+          correctAnswer: 'doctor'
+        },
+        {
+          content: { 
+            text:"Doctor uses -----"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'Gloves' },
+            { type: 'text', value: 'Tractor' },
+
+
+          ],
+          correctAnswer: 'Gloves'
+        },
+        {
+          content: { 
+            text:"If money more in the bank it caused ------"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'withdrawal' },
+            { type: 'text', value: 'deposit' },
+
+
+          ],
+          correctAnswer: 'deposit'
+        },
+        {
+          content: { 
+            text:"If money less in the bank it caused withdrawal------"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'withdrawal' },
+            { type: 'text', value: 'deposit' },
+
+
+          ],
+          correctAnswer: 'withdrawal'
+        },
+        {
+          content: { 
+            text:"----- works in the bank "
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'Teller' },
+            { type: 'text', value: 'Butcher' },
+
+
+          ],
+          correctAnswer: 'Butcher'
+        },
+        {
+          content: { 
+            text:"Chameleon lives in ------ "
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'river' },
+            { type: 'text', value: 'tree' },
+            { type: 'text', value: 'grass' },
+          ],
+          correctAnswer: 'grass'
+        },
+        {
+          content: { 
+            text:"Tilapia lives in------ "
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'river' },
+            { type: 'text', value: 'tree' },
+            { type: 'text', value: 'grass' },
+          ],
+          correctAnswer: 'river'
+        },
+        {
+          content: { 
+            text:"Swift lives in------ "
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'river' },
+            { type: 'text', value: 'tree' },
+            { type: 'text', value: 'grass' },
+          ],
+          correctAnswer: 'tree'
+        },
+        {
+          content: { 
+            text:"A magnet attract ----- "
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'coins' },
+            { type: 'text', value: 'plastic' },
+          ],
+          correctAnswer: 'coins'
+        },
+        {
+          content: { 
+            text:"Which one considered musical instrument ?"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'ball' },
+            { type: 'text', value: 'drum' },
+          ],
+          correctAnswer: 'drum'
+        },
+        {
+          content: { 
+            text:"-------means talking and playing music"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'Communicate' },
+            { type: 'text', value: 'Technology' },
+          ],
+          correctAnswer: 'Communicate'
+        },
+        {
+          content: { 
+            text:"The boat caption drives the -----"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'train' },
+            { type: 'text', value: 'boot' },
+          ],
+          correctAnswer: 'boot'
+        },
+        {
+          content: { 
+            text:"The bus driver drives the-------"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'plane' },
+            { type: 'text', value: 'bus' },
+          ],
+          correctAnswer: 'bus'
+        },
+        {
+          content: { 
+            text:"The pilot drives the -------"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'plane' },
+            { type: 'text', value: 'bus' },
+          ],
+          correctAnswer: 'plane'
+        },
+        {
+          content: { 
+            text:"The train driver drives the -------"
+          },
+          language: 'en-US',
+          options: [
+            { type: 'text', value: 'plane' },
+            { type: 'text', value: 'train' },
+          ],
+          correctAnswer: 'train'
+        },
+
       ],
       "English Connect +":[
         {

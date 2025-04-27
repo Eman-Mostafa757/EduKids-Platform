@@ -5,7 +5,8 @@ body {
   background-attachment: fixed; /* تجعل الصورة ثابتة أثناء التمرير */
   background-repeat: no-repeat;
   background-color: #fef8e7;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Dancing Script', cursive, sans-serif; /* أو أي خط آخر يناسب الأطفال */
+  line-height: 1.6; /* تحسين التباعد بين السطور */
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* لمنع التمرير الأفقي */

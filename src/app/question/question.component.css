@@ -18,6 +18,8 @@ body {
   animation: popIn 0.5s ease;
   border: 3px solid #7ea8f8;
   position: relative;
+  max-height: auto; /* تحديد أقصى ارتفاع */
+
 }
 
 .question-box h2 {
@@ -56,7 +58,7 @@ body {
   border: none;
   border-radius: 10px;
   padding: 5px;
-  font-size: 39px;
+  font-size: 40px;
   color: #2c387e;
   font-weight: bold;
   transition: 0.3s ease;
@@ -108,13 +110,13 @@ body {
   width: 120px; /* نفس عرض الزر المتوقع عشان يسيب مكانه */
 }
 .next-button {
-  background-color: #a5d6a7;
+  background-color: #2e7d32;
   margin-top: 20px;
   font-size: 18px;
   padding: 12px 24px;
   border: none;
   border-radius: 10px;
-  color: #2e7d32;
+  color: #ffffff;
   font-weight: bold;
   transition: background-color 0.3s ease;
   cursor: pointer;
@@ -147,7 +149,6 @@ body {
   background-color: #81c784;
   transform: scale(1.05);
 }
-
 .back-button {
   background-color: #9e1313;
   color: #f8f3f1;
@@ -156,10 +157,14 @@ body {
   border: none;
   font-size: 16px;
   font-weight: bold;
-  margin: 20px 0 10px 10px; /* خلي المسافة من الشمال بس */
-  display: inline-block; /* بدل block عشان ما ييجي في النص */
+  display: inline-block;
   transition: 0.3s ease;
+  position: absolute; /* علشان نتحكم في مكانه */
+  top: 20px; /* من فوق */
+  right: 60px; /* خليها 70px أو غيريها حسب المسافة اللي تعجبك عشان ما يتزاحمش مع زرار read */
+  z-index: 1000; /* عشان يبقى فوق */
 }
+
 
 
 .back-button:hover {
@@ -179,6 +184,17 @@ body {
     opacity: 1;
   }
 }
+@keyframes flash {
+  0% { background-color: #fff8e1; color: #ff6f00; }
+  50% { background-color: #ffcccc; color: #700202; }
+  100% { background-color: #fff8e1; color: #ff6f00; }
+}
+.timer.warning {
+  animation: flash 0.5s infinite;
+  background-color: #ffcccc;
+  color: #750505;
+}
+
 .timer {
   background-color: #fff8e1;
   color: #ff6f00;
@@ -234,6 +250,17 @@ body {
   animation: popIn 0.5s ease;
 
 }
+.not_Found{
+  background-color: #4e0505;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 500px;
+  margin: 100px auto;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  animation: popIn 0.5s ease;
+}
 .option-image {
   width: 80px;
   height: 80px;
@@ -264,6 +291,8 @@ body {
     padding: 20px;
     margin: 20px 10px;
     max-width: 100%;
+    max-height: auto; /* 80% من ارتفاع الشاشة */
+   
   }
 
   .question-box h2 {
@@ -271,12 +300,13 @@ body {
   }
 
   .read-button {
-    font-size: 14px;
-    padding: 6px 12px;
+    font-size: 12px;
+    padding: 4px 10px;
     top: 12px;
     right: 12px;
   }
   .next-button,
+  .previous-button,
   .retry-button {
     font-size: 16px;
     padding: 10px 16px;
@@ -290,7 +320,7 @@ body {
   }
 
   .option-button {
-    font-size: 16px;
+    font-size: 39px;
     padding: 12px;
   }
 
@@ -325,7 +355,7 @@ body {
 @media (max-width: 480px) {
 
   .next-button,
-  .back-button,
+  .previous-button,
   .retry-button {
     font-size: 14px;
     padding: 8px 12px;
@@ -338,17 +368,20 @@ body {
   }
 
   .read-button {
-    font-size: 14px;
-    padding: 6px 12px;
+    font-size: 12px;
+    padding: 4px 10px;
     top: 12px;
     right: 12px;
   }
   .back-button {
-    font-size: 14px;
+    font-size: 15px;
     padding: 8px 14px;
     margin: 10px 0 0 10px; /* يخليه تحت الهيدر وعلى الشمال */
     display: inline-block;
-    position: static; /* مهم جدًا علشان ما يطلعش فوق */
+    position: absolute; /* علشان نتحكم في مكانه */
+  top: 5px; /* من فوق */
+  right: 10px; /* خليها 70px أو غيريها حسب المسافة اللي تعجبك عشان ما يتزاحمش مع زرار read */
+  z-index: 1000;  /* مهم جدًا علشان ما يطلعش فوق */
   }
 }
 
@@ -358,8 +391,8 @@ body {
     margin: 10px;
     max-width: 100%;
     height: auto;
-    max-height: 80vh; /* 80% من ارتفاع الشاشة */
-    overflow-y: auto; /* يسمح بوجود اسكرول فقط إذا كان المحتوى أكبر من الحجم */
+    max-height: auto; /* 80% من ارتفاع الشاشة */
+     /* يسمح بوجود اسكرول فقط إذا كان المحتوى أكبر من الحجم */
   }
   .question-text {
     font-size: 16px;
@@ -371,23 +404,34 @@ body {
   }
 
   .read-button {
-    font-size: 14px;
-    padding: 6px 12px;
+    font-size: 10px;
+    padding: 4px 10px;
     top: 12px;
     right: 12px;
   }
   .next-button,
+  .previous-button {
+    font-size: 10px;
+    padding: 10px;
+    width: auto; /* التأكد من أن الأزرار لا تأخذ العرض الكامل */
+    display: inline-block; /* يمنع الأزرار من التمدد بشكل كامل */
+  }
   .option-button {
-    font-size: 14px;
+    font-size: 39px;
     padding: 10px;
     width: auto; /* التأكد من أن الأزرار لا تأخذ العرض الكامل */
     display: inline-block; /* يمنع الأزرار من التمدد بشكل كامل */
   }
 
   .back-button {
-    font-size: 14px;
+    font-size: 10px;
     padding: 8px 14px;
-    margin-left: 10px;
+    margin: 10px 0 0 10px; /* يخليه تحت الهيدر وعلى الشمال */
+    display: inline-block;
+    position: absolute; /* علشان نتحكم في مكانه */
+  top: 5px; /* من فوق */
+  right: 10px; /* خليها 70px أو غيريها حسب المسافة اللي تعجبك عشان ما يتزاحمش مع زرار read */
+  z-index: 1000;  
   }
   /* لضبط الصور مع الأزرار */
   .question-image,

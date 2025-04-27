@@ -13,8 +13,10 @@ import { Router } from '@angular/router';
 
 })
 export class QuestionComponent {
+  warningStarted: boolean = false;
+  timerSecondsPerQuestion = 10; 
 
-  timerMinutes = 3; // أو أي عدد دقائق
+  timerMinutes = 6; 
   timeLeftInSeconds = this.timerMinutes * 60;
   timerInterval: any;
   timeUp = false;
@@ -38,50 +40,53 @@ export class QuestionComponent {
 
   ngOnInit() {
     this.route.queryParams.subscribe(params => {
-      this.route.queryParams.subscribe(params => {
-        this.section = params['section'];
-        this.grade = params['grade'];
-        this.subject = params['subject'];
-
-        const sectionData = this.questionsData[this.section];
-        const gradeData = sectionData?.[this.grade];
-        this.filteredQuestions = gradeData?.[this.subject] || [];
-
-        this.startTimer(); // ⏱️ تشغيل التايمر هنا
-      });
-
       this.section = params['section'];
       this.grade = params['grade'];
       this.subject = params['subject'];
-
+  
       console.log('تم استلام:', this.section, this.grade, this.subject);
-
-
+  
       const sectionData = this.questionsData[this.section];
       const gradeData = sectionData?.[this.grade];
       this.filteredQuestions = gradeData?.[this.subject] || [];
-
+  
       console.log('الأسئلة المحملة:', this.filteredQuestions);
+  
+      // تحديد الوقت بناءً على عدد الأسئلة
+      const totalTime = this.filteredQuestions.length * this.timerSecondsPerQuestion;
+      this.timeLeftInSeconds = totalTime;
+  
+      this.startTimer();
+  
       window.speechSynthesis.onvoiceschanged = () => {
         window.speechSynthesis.getVoices();
       };
-      
     });
   }
-  startTimer() {
-    this.timeLeftInSeconds = this.timerMinutes * 60;
+  
+  
 
+  startTimer() {
+    this.warningStarted = false; // Reset التحذير مع بداية التايمر
+  
     this.timerInterval = setInterval(() => {
       this.timeLeftInSeconds--;
-
+  
+      if (this.timeLeftInSeconds <= 300 && !this.warningStarted) {
+        this.startWarningEffect();
+      }
+  
       if (this.timeLeftInSeconds <= 0) {
         clearInterval(this.timerInterval);
         this.timeUp = true;
       }
     }, 1000);
   }
-
-
+  
+  
+  startWarningEffect() {
+    this.warningStarted = true;
+  }
 
   restartExam() {
     clearInterval(this.timerInterval); // مهم جدًا!

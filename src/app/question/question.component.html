@@ -1,10 +1,9 @@
 
-
-<div class="timer" *ngIf="!timeUp">
+<div [ngClass]="{'timer': true, 'warning': warningStarted}" *ngIf="!timeUp">
   ⏳ الوقت المتبقي: {{ formattedTime }}
 </div>
 
-<button class="back-button" (click)="goBack()">⬅️ خروج</button>
+<button class="back-button" (click)="goBack()">خروج</button>
 
 <div *ngIf="!timeUp && filteredQuestions.length > 0" class="question-box">
 
@@ -71,8 +70,8 @@
 </div>
 
 <!-- في حالة عدم وجود أسئلة -->
-<div *ngIf="filteredQuestions.length === 0">
-  <p>لا توجد أسئلة لهذه المادة حالياً 😥</p>
+<div *ngIf="filteredQuestions.length === 0" class="not_Found">
+  <p>😥لا توجد أسئلة لهذه المادة حالياً </p>
 </div>
 
 <!-- في حالة انتهاء الوقت -->
@@ -87,7 +86,7 @@
 
 <!-- في حالة انتهاء الامتحان -->
 <div *ngIf="examCompleted" class="completion-message">
-  <h2>🎉 برافو! خلصت الامتحان 👏</h2>
-  <h3> أحسنت 👏</h3>
+  <h2>👏 🎉 خلصت الامتحان </h2>
+  <h3>👏 أحسنت </h3>
   <img src="assets/images/trophy.jfif" alt="Trophy" class="reward-img" />
 </div>

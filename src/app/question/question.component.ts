@@ -54,7 +54,7 @@ export class QuestionComponent {
   
       // تحديد الوقت بناءً على عدد الأسئلة
       const totalTime = this.filteredQuestions.length * this.timerSecondsPerQuestion;
-      this.timeLeftInSeconds = totalTime;
+      this.timeLeftInSeconds = Math.max(totalTime, 180);
   
       this.startTimer();
   
@@ -68,11 +68,11 @@ export class QuestionComponent {
 
   startTimer() {
     this.warningStarted = false; // Reset التحذير مع بداية التايمر
-  
+    const warningThreshold = this.timeLeftInSeconds * 0.3;
     this.timerInterval = setInterval(() => {
       this.timeLeftInSeconds--;
   
-      if (this.timeLeftInSeconds <= 300 && !this.warningStarted) {
+      if (this.timeLeftInSeconds <= warningThreshold && !this.warningStarted) {
         this.startWarningEffect();
       }
   

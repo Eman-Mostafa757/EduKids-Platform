@@ -107,7 +107,7 @@ body {
 }
 
 .spacer {
-  width: 120px; /* نفس عرض الزر المتوقع عشان يسيب مكانه */
+  width: 120px; 
 }
 .next-button {
   background-color: #2e7d32;

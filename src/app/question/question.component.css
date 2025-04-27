@@ -305,7 +305,7 @@ body {
   }
 
   .question-box h2 {
-    font-size: 15px; /* رقم السؤال يصغر شوية */
+    font-size: 22px; /* رقم السؤال يصغر شوية */
   }
 
   .read-button {
@@ -375,8 +375,11 @@ body {
     display: inline-block; /* يمنع الأزرار من التمدد بشكل كامل */
     text-align: center; /* لضمان محاذاة النص داخل الأزرار */
   }
-  .question-box h2 {
-    font-size: 15px; /* رقم السؤال يصغر شوية */
+  .question-box h1 {
+    font-size: 18px; /* رقم السؤال يصغر شوية */
+  }
+  .question-text {
+    font-size: 22px;
   }
 
   .read-button {
@@ -407,12 +410,12 @@ body {
      /* يسمح بوجود اسكرول فقط إذا كان المحتوى أكبر من الحجم */
   }
   .question-text {
-    font-size: 16px;
+    font-size: 22px;
   }
 
 
-  .question-box h2 {
-    font-size: 15px; /* رقم السؤال يصغر شوية */
+  .question-box h1 {
+    font-size: 18px; /* رقم السؤال يصغر شوية */
   }
 
   .read-button {

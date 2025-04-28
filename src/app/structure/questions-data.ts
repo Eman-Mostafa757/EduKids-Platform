@@ -2934,7 +2934,19 @@ export const questionsData = {
 
       ],
       رياضيات: [
-       
+        {
+          content: {
+            audio: 'assets/audio/question/math/اختر الترتيب التنازلي.mp3',
+            text: "اختر الترتيب التنازلي الصحيح للاعداد التي امامك :",
+            image: 'assets/رياضة ك ع/ترتيب1.png'
+          },
+          language: "ar-EG",
+          options: [
+            { type: "text", value: "(١٩ , ١٥ , ١٤ , ١٠)" },
+            { type: "text", value: "(١٠ , ١٤ , ١٥ , ١٩)" },
+          ],
+          correctAnswer: "(١٩ , ١٥ , ١٤ , ١٠)"
+        },
         {
           content: {
             audio: 'assets/audio/question/math/قارن بين كل عددين بأستخدام.mp3',

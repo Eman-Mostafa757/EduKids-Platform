@@ -96,10 +96,18 @@
   <h3>👏 أحسنت </h3>
 
   <!-- رسالة التهنئة مع الأنيميشن -->
-  <div class="congratulation-message">
-    <!-- <h1>ممتاااز! أنت نجم ساطع! ⭐🌟</h1> -->
-    <div class="balloons">
-      <img src="assets/english/بالونة.jfif" alt="Balloon" class="balloon" *ngFor="let balloon of balloons" />
-    </div>
+</div>
+<div class="congratulation-message">
+  <!-- <h1>ممتاااز! أنت نجم ساطع! ⭐🌟</h1> -->
+  <div class="balloons">
+    <img 
+      *ngFor="let balloon of balloons" 
+      src="assets/images/بالونة-removebg-preview.png" 
+      alt="Balloon"
+      class="balloon"
+      [style.left.%]="balloon.left"
+      [style.animationDuration.s]="balloon.duration"
+    />
   </div>
+  
 </div>

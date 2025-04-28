@@ -366,7 +366,13 @@ export class QuestionComponent {
       if (this.currentQuestionIndex === this.filteredQuestions.length - 1) {
         // آخر سؤال
         this.examCompleted = true;
-       // this.balloons = Array(5).fill(null);
+        this.balloons = Array.from({ length: 20 }, (_, index) => ({
+          id: index,
+          left: Math.random() * 100, // مكان عشوائي من 0 لـ 100٪
+          duration: Math.random() * 5 + 5 // مدة الحركة عشوائية من 5 لـ10 ثواني
+        }));
+        
+
 
         // عدد البالونات التي ستظهر
   

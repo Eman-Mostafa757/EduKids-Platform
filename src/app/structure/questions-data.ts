@@ -738,7 +738,7 @@ export const questionsData = {
             { type: "text", value: "يِ" },
             { type: "text", value: "يُ" }
           ],
-          correctAnswer: "يَ"
+          correctAnswer: "يُ"
         },
         {
           content: {
@@ -935,6 +935,7 @@ export const questionsData = {
 
       ],
       رياضيات: [
+      
         {
           content: {
             image: "assets/shapes/4_العدد السابق.png",
@@ -2074,7 +2075,7 @@ export const questionsData = {
             { type: 'text', value: 'خُ' }
 
           ],
-          correctAnswer: 'خِ'
+          correctAnswer: 'خَ'
         },
         {
           content: {
@@ -2088,7 +2089,7 @@ export const questionsData = {
             { type: 'text', value: 'خُ' }
 
           ],
-          correctAnswer: 'خِ'
+          correctAnswer: 'خَ'
         },
        
         {
@@ -2132,7 +2133,7 @@ export const questionsData = {
 
 
           ],
-          correctAnswer: 'صُ'
+          correctAnswer: 'صَ'
         },
         {
           content: {
@@ -2385,7 +2386,7 @@ export const questionsData = {
         },
         {
           content: {
-            text: 'نبت'
+            text: 'بنت'
 
           },
           language: 'ar-EG',
@@ -2395,7 +2396,7 @@ export const questionsData = {
 
 
           ],
-          correctAnswer: 'جمع'
+          correctAnswer: 'مفرد'
         },
         {
           content: {
@@ -2568,7 +2569,7 @@ export const questionsData = {
 
 
           ],
-          correctAnswer: 'يَ'
+          correctAnswer: 'يُ'
         },
       
        
@@ -2712,7 +2713,7 @@ export const questionsData = {
         },
         {
           content: {
-            image: 'assets/arabic/كرسي.jpg'
+            image: 'assets/arabic/كرسي2.jpg'
 
           },
           language: 'ar-EG',
@@ -2726,7 +2727,7 @@ export const questionsData = {
         },
         {
           content: {
-            image: 'assets/arabic/ظفر.jpg'
+            image: 'assets/arabic/ظفر.png'
 
           },
           language: 'ar-EG',
@@ -3377,7 +3378,7 @@ export const questionsData = {
           },
           language: "ar-EG",
           options: [
-            { type: "image", value: "assets/1رياضة ك ع/مثلث.png" },
+            { type: "image", value: "assets/رياضة ك ع/مثلث1.png" },
             { type: "image", value: "assets/رياضة ك ع/مربع.png" },
             { type: "image", value: "assets/رياضة ك ع/دايرة.png" },
           ],
@@ -3433,7 +3434,7 @@ export const questionsData = {
        
         {
           content: {
-            text: "سهى لديها (٤) أقلامز ثم اشترت (٥) اقلام أخرى. فكم عدد الأقلام مع سهى ؟",
+            text:"سهى لديها (٤) أقلام ثم اشترت (٥) أقلام أخرى . فكم عدد الأقلام مع سهى ؟",
             audio: "assets/audio/question/math/سهي والاقلام.mp3"
           },
           language: "ar-EG",
@@ -4265,7 +4266,7 @@ export const questionsData = {
             { type: 'text', value: 'a' },
             { type: 'text', value: 'e' },
           ],
-          correctAnswer: 'a'
+          correctAnswer: 'e'
         },
         {
           content: { 
@@ -5166,7 +5167,7 @@ export const questionsData = {
             { type: "text", value: "يِ" },
             { type: "text", value: "يُ" }
           ],
-          correctAnswer: "يَ"
+          correctAnswer: "يُ"
         },
         {
           content: {
@@ -5814,7 +5815,7 @@ export const questionsData = {
         {
           content: {
             image:"assets/متعدد ص ع/مكعب.png",
-            text: "It’s can…..",
+            text: "It can…..",
           },
           language: "en-US",
           options: [
@@ -6305,7 +6306,7 @@ export const questionsData = {
         {
           content: {
             image:"assets/متعدد ص ع/فيل.jpg",
-            text: "The elephant considered of…...…",
+            text: "The elephant considered as...…",
           },
           language: "en-US",
           options: [
@@ -6319,7 +6320,7 @@ export const questionsData = {
           content: {
             image:"assets/متعدد ص ع/شجرة تفاح.jpg",
 
-            text: "The apple tree considered of……",
+            text: "The apple tree considered as-----",
           },
           language: "en-US",
           options: [
@@ -6332,7 +6333,7 @@ export const questionsData = {
         {
           content: {
             image:"assets/متعدد ص ع/حجر.jpg",
-            text: "The rock is considered of…..",
+            text: "The rock is considered as-----",
           },
           language: "en-US",
           options: [
@@ -7320,7 +7321,7 @@ export const questionsData = {
             { type: 'text', value: 'خُ' }
 
           ],
-          correctAnswer: 'خِ'
+          correctAnswer: 'خَ'
         },
         {
           content: {
@@ -7378,7 +7379,7 @@ export const questionsData = {
 
 
           ],
-          correctAnswer: 'صُ'
+          correctAnswer: 'صَ'
         },
         {
           content: {
@@ -7631,7 +7632,7 @@ export const questionsData = {
         },
         {
           content: {
-            text: 'نبت'
+            text: 'بنت'
 
           },
           language: 'ar-EG',
@@ -7641,7 +7642,7 @@ export const questionsData = {
 
 
           ],
-          correctAnswer: 'جمع'
+          correctAnswer: 'مفرد'
         },
         {
           content: {
@@ -7814,7 +7815,7 @@ export const questionsData = {
 
 
           ],
-          correctAnswer: 'يَ'
+          correctAnswer: 'يُ'
         },
       
        
@@ -8345,17 +8346,17 @@ export const questionsData = {
           language: 'en-US',
           options: [
             { type: 'image', value: 'assets/english/كرة.jfif' },
-            { type: 'image', value: 'assets/english/اسطوانة.png' },
+            { type: 'image', value: 'assets/english/اسطوانة.jpg' },
             { type: 'image', value: 'assets/english/مخروط.jfif' }
           ],
-          correctAnswer: 'assets/english/اسطوانة.png'
+          correctAnswer: 'assets/english/اسطوانة.jpg'
         },
         {
           content: { text: 'Which one is Cube?' },
           language: 'en-US',
           options: [
             { type: 'image', value: 'assets/english/كرة.jfif' },
-            { type: 'image', value: 'assets/english/اسطوانة.png' },
+            { type: 'image', value: 'assets/english/اسطوانة.jpg' },
             { type: 'image', value: 'assets/english/مكعب.jfif' }
           ],
           correctAnswer: 'assets/english/مكعب.jfif'
@@ -8547,7 +8548,7 @@ export const questionsData = {
           options: [
             { type: 'image', value: 'assets/english/مثلث.jfif' },
             { type: 'image', value: 'assets/english/مخروط.jfif' },
-            { type: 'image', value: 'assets/english/مربع.jfif' }
+            { type: 'image', value: 'assets/english/مكعب.jfif' }
           ],
           correctAnswer: 'assets/english/مثلث.jfif'
         },
@@ -8955,7 +8956,7 @@ export const questionsData = {
         },
         {
           content: { 
-            text:"The boat caption drives the -----"
+            text:"The boat captain drives the -----"
           },
           language: 'en-US',
           options: [
@@ -9342,7 +9343,7 @@ export const questionsData = {
             },
             language: 'en-US',
             options: [
-              { type: 'text', value: 'Volleball' },
+              { type: 'text', value: 'Volleyball' },
               { type: 'text', value: 'Tennis' },
             ],
             correctAnswer: 'Tennis'
@@ -9370,7 +9371,7 @@ export const questionsData = {
             },
             language: 'en-US',
             options: [
-              { type: 'text', value: 'Volleball' },
+              { type: 'text', value: 'Volleyball' },
               { type: 'text', value: 'Basketball' },
             ],
             correctAnswer: 'Basketball'
@@ -9440,7 +9441,7 @@ export const questionsData = {
             },
             language: 'en-US',
             options: [
-              { type: 'text', value: 'Paino' },
+              { type: 'text', value: 'Piano' },
               { type: 'text', value: 'Guitar' },
             ],
             correctAnswer: 'Paino'
@@ -9572,7 +9573,7 @@ export const questionsData = {
               { type: 'text', value: 'Sc' },
               { type: 'text', value: 'Sw' },
             ],
-            correctAnswer: 'Sw'
+            correctAnswer: 'Sc'
           },
           {
             content: { 
@@ -9607,7 +9608,7 @@ export const questionsData = {
             content: { 
               answer:"nest",
 
-              image :"assets/english/عشب.jfif",
+              image :"assets/english/عش.jfif",
               text:"ne----"
              
             },
@@ -9898,7 +9899,7 @@ export const questionsData = {
               { type: 'text', value: 'a' },
               { type: 'text', value: 'e' },
             ],
-            correctAnswer: 'a'
+            correctAnswer: 'e'
           },
           {
             content: { 

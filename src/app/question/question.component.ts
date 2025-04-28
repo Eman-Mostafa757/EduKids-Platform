@@ -366,7 +366,8 @@ export class QuestionComponent {
       if (this.currentQuestionIndex === this.filteredQuestions.length - 1) {
         // آخر سؤال
         this.examCompleted = true;
-        let balloons = Array(5).fill(null);
+       // this.balloons = Array(5).fill(null);
+
         // عدد البالونات التي ستظهر
   
         // تابع لإتمام الامتحان

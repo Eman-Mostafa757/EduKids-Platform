@@ -76,17 +76,30 @@
 
 <!-- في حالة انتهاء الوقت -->
 <div *ngIf="timeUp && !examCompleted" class="time-up-message">
-  <img src="assets/images/منبه حزين.jfif" alt="Time's up" class="reward-img" style="width: 200px; margin-bottom: 20px;">
-  <h2>⏰   الوقت خلص</h2>
-  <p styl e="font-size: 18px; margin-top: 10px;"> 👏 ولا يهمك ... تقدر تحاول تاني</p>
-  <p style="font-size: 16px; color: #3a3939;">  😊 التجربة أهم من النتيجة</p>
+  <img src="assets/images/2.png" alt="Time's up" class="reward-img" style="width: 150px; margin-bottom: 6px;">
+  <h1>⏰   الوقت خلص</h1>
+  <p styl e="font-size: 22px; margin-top: 2px;"> 👏 ولا يهمك ... تقدر تحاول تاني</p>
+  <p style="font-size: 20px; color: #f1eaea;">  😊 التجربة أهم من النتيجة</p>
   <button class="retry-button" (click)="restartExam()"> 🔁 جرّب تاني</button>
 </div>
 
 
-<!-- في حالة انتهاء الامتحان -->
+
+
 <div *ngIf="examCompleted" class="completion-message">
+  <audio *ngIf="examCompleted" autoplay>
+    <source src="assets/music/congratulations.mp3" type="audio/mp3" />
+    متصفحك لا يدعم تشغيل الصوت.
+  </audio>
+  <img src="assets/images/1.png" alt="Trophy" class="reward-img" />
   <h2>👏 🎉 خلصت الامتحان </h2>
   <h3>👏 أحسنت </h3>
-  <img src="assets/images/trophy.jfif" alt="Trophy" class="reward-img" />
+
+  <!-- رسالة التهنئة مع الأنيميشن -->
+  <div class="congratulation-message">
+    <h1>ممتاااز! أنت نجم ساطع! ⭐🌟</h1>
+    <div class="balloons">
+      <img src="assets/images/balloon.png" alt="Balloon" class="balloon" *ngFor="let balloon of balloons" />
+    </div>
+  </div>
 </div>

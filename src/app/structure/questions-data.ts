@@ -295,11 +295,11 @@ export const questionsData = {
           },
           language: "ar-EG",
           options: [
-            { type: "text", value: "ش" },
+            { type: "text", value: "ـشـ" },
             { type: "text", value: "شـ" },
 
           ],
-          correctAnswer: "شـ"
+          correctAnswer: "ـشـ"
         },
         {
           content: {
@@ -489,11 +489,12 @@ export const questionsData = {
           },
           language: "ar-EG",
           options: [
-            { type: "text", value: "ث" },
+            { type: "text", value: "ـثـ" },
             { type: "text", value: "ـث" },
 
           ],
-          correctAnswer: "ـث"
+          correctAnswer: "ـثـ"
+
         },
         {
           content: {
@@ -737,7 +738,7 @@ export const questionsData = {
             { type: "text", value: "يِ" },
             { type: "text", value: "يُ" }
           ],
-          correctAnswer: "يُ"
+          correctAnswer: "يَ"
         },
         {
           content: {
@@ -2063,20 +2064,6 @@ export const questionsData = {
         },
         {
           content: {
-            image: 'assets/arabic/خيار.jpg',
-
-          },
-          language: 'ar-EG',
-          options: [
-            { type: 'text', value: 'خَ' },
-            { type: 'text', value: 'خِ' },
-            { type: 'text', value: 'خُ' }
-
-          ],
-          correctAnswer: 'خِ'
-        },
-        {
-          content: {
             image: 'assets/arabic/OIP.jfif',
 
           },
@@ -2101,7 +2088,7 @@ export const questionsData = {
             { type: 'text', value: 'خُ' }
 
           ],
-          correctAnswer: 'خَ'
+          correctAnswer: 'خِ'
         },
        
         {
@@ -2145,7 +2132,7 @@ export const questionsData = {
 
 
           ],
-          correctAnswer: 'صَ'
+          correctAnswer: 'صُ'
         },
         {
           content: {
@@ -2175,21 +2162,6 @@ export const questionsData = {
 
           ],
           correctAnswer: 'ـصـ'
-        },
-        {
-          content: {
-            text: 'مقص',
-
-          },
-          language: 'ar-EG',
-          options: [
-            { type: 'text', value: 'صـ' },
-            { type: 'text', value: 'ـص' },
-
-
-
-          ],
-          correctAnswer: 'ـص'
         },
         {
           content: {
@@ -2520,7 +2492,7 @@ export const questionsData = {
             { type: 'text', value: 'ت' }
 
           ],
-          correctAnswer: 'ذ'
+          correctAnswer: 'ط'
         },
         {
           content: {
@@ -2763,7 +2735,7 @@ export const questionsData = {
             { type: 'text', value: 'ظ' }
 
           ],
-          correctAnswer: 'ك'
+          correctAnswer: 'ظ'
         },
         
         {
@@ -2818,11 +2790,11 @@ export const questionsData = {
 
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
-            { type: 'text', value: 'ى' }
+            { type: 'text', value: 'ي' }
 
 
           ],
-          correctAnswer: 'ى'
+          correctAnswer: 'ي'
         },
         {
           content: {
@@ -2831,12 +2803,12 @@ export const questionsData = {
           },
           language: 'ar-EG',
           options: [
-            { type: 'text', value: 'ى' },
+            { type: 'text', value: 'ي' },
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
 
           ],
-          correctAnswer: 'ى'
+          correctAnswer: 'ي'
         },
         {
           content: {
@@ -2848,11 +2820,11 @@ export const questionsData = {
 
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
-            { type: 'text', value: 'ى' }
+            { type: 'text', value: 'ي' }
 
 
           ],
-          correctAnswer: 'ى'
+          correctAnswer: 'ي'
         },
         {
           content: {
@@ -2861,30 +2833,14 @@ export const questionsData = {
           },
           language: 'ar-EG',
           options: [
-            { type: 'text', value: 'ى' },
+            { type: 'text', value: 'ي' },
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
 
 
 
           ],
-          correctAnswer: 'ى'
-        },
-        {
-          content: {
-            text: 'حَزِين'
-
-          },
-          language: 'ar-EG',
-          options: [
-
-            { type: 'text', value: 'ا' },
-            { type: 'text', value: 'و' },
-            { type: 'text', value: 'ى' }
-
-
-          ],
-          correctAnswer: 'ى'
+          correctAnswer: 'ي'
         },
 
         {
@@ -2894,7 +2850,7 @@ export const questionsData = {
           },
           language: 'ar-EG',
           options: [
-            { type: 'text', value: 'ى' },
+            { type: 'text', value: 'ي' },
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
 
@@ -2911,7 +2867,7 @@ export const questionsData = {
           language: 'ar-EG',
           options: [
             { type: 'text', value: 'و' },
-            { type: 'text', value: 'ى' },
+            { type: 'text', value: 'ي' },
             { type: 'text', value: 'ا' },
 
           ],
@@ -2966,19 +2922,19 @@ export const questionsData = {
           },
           language: 'ar-EG',
           options: [
-            { type: 'text', value: 'ى' },
+            { type: 'text', value: 'ي' },
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
 
 
 
           ],
-          correctAnswer: 'ى'
+          correctAnswer: 'ي'
         },
 
       ],
       رياضيات: [
-
+       
         {
           content: {
             audio: 'assets/audio/question/math/قارن بين كل عددين بأستخدام.mp3',
@@ -2996,7 +2952,7 @@ export const questionsData = {
 
         {
           content: {
-           
+            audio: 'assets/audio/question/math/قارن بين كل عددين بأستخدام.mp3',
             text: "( < , > , =) قارن بين كل عددين بأستخدام ",
             image: 'assets/رياضة ك ع/تلاتين وخمسين.png'
           },
@@ -4755,11 +4711,11 @@ export const questionsData = {
           },
           language: "ar-EG",
           options: [
-            { type: "text", value: "ش" },
+            { type: "text", value: "ـشـ" },
             { type: "text", value: "شـ" },
 
           ],
-          correctAnswer: "شـ"
+          correctAnswer: "ـشـ"
         },
         {
           content: {
@@ -4949,11 +4905,12 @@ export const questionsData = {
           },
           language: "ar-EG",
           options: [
-            { type: "text", value: "ث" },
+            { type: "text", value: "ـثـ" },
             { type: "text", value: "ـث" },
 
           ],
-          correctAnswer: "ـث"
+          correctAnswer: "ـثـ"
+
         },
         {
           content: {
@@ -5197,7 +5154,7 @@ export const questionsData = {
             { type: "text", value: "يِ" },
             { type: "text", value: "يُ" }
           ],
-          correctAnswer: "يُ"
+          correctAnswer: "يَ"
         },
         {
           content: {
@@ -5400,11 +5357,11 @@ export const questionsData = {
           },
           language: "en-US",
           options: [
-            { type: "image", value: "assets/math Kg1/1تفاحة.jpg" },
-            { type: "image", value: "assets/math Kg1/2تفاحة.jpg" },
-            { type: "image", value: "assets/math Kg1/3تفاحة.jpg"},
+            { type: "image", value: "assets/math Kg1/تفاحة1.jpeg" },
+            { type: "image", value: "assets/math Kg1/تفاحة2.jpeg" },
+            { type: "image", value: "assets/math Kg1/تفاحة3.jpeg"},
           ],
-          correctAnswer: "assets/math Kg1/2تفاحة.jpg"
+          correctAnswer: "assets/math Kg1/تفاحة2.jpeg"
         },
         {
           content: {
@@ -5412,11 +5369,11 @@ export const questionsData = {
           },
           language: "en-US",
           options: [
-            { type: "image", value: "assets/math Kg1/1تفاحة.jpg" },
-            { type: "image", value: "assets/math Kg1/2تفاحة.jpg" },
-            { type: "image", value: "assets/math Kg1/3تفاحة.jpg"},
+            { type: "image", value: "assets/math Kg1/تفاحة1.jpeg" },
+            { type: "image", value: "assets/math Kg1/تفاحة2.jpeg" },
+            { type: "image", value: "assets/math Kg1/تفاحة3.jpeg"},
           ],
-          correctAnswer:"assets/math Kg1/1تفاحة.jpg"
+          correctAnswer:"assets/math Kg1/تفاحة1.jpeg"
         },
         {
           content: {
@@ -7244,7 +7201,7 @@ export const questionsData = {
       ],
     },
     KG2: {
-      عربي: [
+      عربي:  [
         {
 
           content: {
@@ -7279,10 +7236,10 @@ export const questionsData = {
           language: 'ar-EG',
           options: [
             { type: 'text', value: 'ث' },
-            { type: 'text', value: 'ـث' },
+            { type: 'text', value: 'ـثـ ' },
 
           ],
-          correctAnswer: 'ـث'
+          correctAnswer: 'ـثـ '
         },
         {
           content: {
@@ -7290,11 +7247,11 @@ export const questionsData = {
           },
           language: 'ar-EG',
           options: [
-            { type: 'text', value: 'ث' },
+            { type: 'text', value: 'ثـ' },
             { type: 'text', value: 'ـث' },
 
           ],
-          correctAnswer: 'ث'
+          correctAnswer: 'ثـ'
         },
         {
           content: {
@@ -7341,20 +7298,6 @@ export const questionsData = {
         },
         {
           content: {
-            image: 'assets/arabic/خيار.jpg',
-
-          },
-          language: 'ar-EG',
-          options: [
-            { type: 'text', value: 'خَ' },
-            { type: 'text', value: 'خِ' },
-            { type: 'text', value: 'خُ' }
-
-          ],
-          correctAnswer: 'خِ'
-        },
-        {
-          content: {
             image: 'assets/arabic/OIP.jfif',
 
           },
@@ -7379,7 +7322,7 @@ export const questionsData = {
             { type: 'text', value: 'خُ' }
 
           ],
-          correctAnswer: 'خَ'
+          correctAnswer: 'خِ'
         },
        
         {
@@ -7423,7 +7366,7 @@ export const questionsData = {
 
 
           ],
-          correctAnswer: 'صَ'
+          correctAnswer: 'صُ'
         },
         {
           content: {
@@ -7453,21 +7396,6 @@ export const questionsData = {
 
           ],
           correctAnswer: 'ـصـ'
-        },
-        {
-          content: {
-            text: 'مقص',
-
-          },
-          language: 'ar-EG',
-          options: [
-            { type: 'text', value: 'صـ' },
-            { type: 'text', value: 'ـص' },
-
-
-
-          ],
-          correctAnswer: 'ـص'
         },
         {
           content: {
@@ -7545,7 +7473,7 @@ export const questionsData = {
             { type: 'text', value: 'ـك' }
 
           ],
-          correctAnswer: 'ـكـ'
+          correctAnswer: 'ـك'
         },
         {
           content: {
@@ -7555,10 +7483,10 @@ export const questionsData = {
           language: 'ar-EG',
           options: [
             { type: 'text', value: 'ك' },
-            { type: 'text', value: 'ـك' }
+            { type: 'text', value: 'ـكـ' }
 
           ],
-          correctAnswer: 'ـك'
+          correctAnswer: 'ـكـ'
         },
         {
           content: {
@@ -7798,7 +7726,7 @@ export const questionsData = {
             { type: 'text', value: 'ت' }
 
           ],
-          correctAnswer: 'ذ'
+          correctAnswer: 'ط'
         },
         {
           content: {
@@ -8041,7 +7969,7 @@ export const questionsData = {
             { type: 'text', value: 'ظ' }
 
           ],
-          correctAnswer: 'ك'
+          correctAnswer: 'ظ'
         },
         
         {
@@ -8096,11 +8024,11 @@ export const questionsData = {
 
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
-            { type: 'text', value: 'ى' }
+            { type: 'text', value: 'ي' }
 
 
           ],
-          correctAnswer: 'ى'
+          correctAnswer: 'ي'
         },
         {
           content: {
@@ -8109,12 +8037,12 @@ export const questionsData = {
           },
           language: 'ar-EG',
           options: [
-            { type: 'text', value: 'ى' },
+            { type: 'text', value: 'ي' },
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
 
           ],
-          correctAnswer: 'ى'
+          correctAnswer: 'ي'
         },
         {
           content: {
@@ -8126,11 +8054,11 @@ export const questionsData = {
 
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
-            { type: 'text', value: 'ى' }
+            { type: 'text', value: 'ي' }
 
 
           ],
-          correctAnswer: 'ى'
+          correctAnswer: 'ي'
         },
         {
           content: {
@@ -8139,30 +8067,14 @@ export const questionsData = {
           },
           language: 'ar-EG',
           options: [
-            { type: 'text', value: 'ى' },
+            { type: 'text', value: 'ي' },
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
 
 
 
           ],
-          correctAnswer: 'ى'
-        },
-        {
-          content: {
-            text: 'حَزِين'
-
-          },
-          language: 'ar-EG',
-          options: [
-
-            { type: 'text', value: 'ا' },
-            { type: 'text', value: 'و' },
-            { type: 'text', value: 'ى' }
-
-
-          ],
-          correctAnswer: 'ى'
+          correctAnswer: 'ي'
         },
 
         {
@@ -8172,7 +8084,7 @@ export const questionsData = {
           },
           language: 'ar-EG',
           options: [
-            { type: 'text', value: 'ى' },
+            { type: 'text', value: 'ي' },
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
 
@@ -8189,7 +8101,7 @@ export const questionsData = {
           language: 'ar-EG',
           options: [
             { type: 'text', value: 'و' },
-            { type: 'text', value: 'ى' },
+            { type: 'text', value: 'ي' },
             { type: 'text', value: 'ا' },
 
           ],
@@ -8244,15 +8156,16 @@ export const questionsData = {
           },
           language: 'ar-EG',
           options: [
-            { type: 'text', value: 'ى' },
+            { type: 'text', value: 'ي' },
             { type: 'text', value: 'ا' },
             { type: 'text', value: 'و' },
 
 
 
           ],
-          correctAnswer: 'ى'
+          correctAnswer: 'ي'
         },
+
       ],
       Math: [
         {

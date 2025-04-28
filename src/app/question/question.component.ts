@@ -15,7 +15,7 @@ import { Router } from '@angular/router';
 export class QuestionComponent {
   warningStarted: boolean = false;
   timerSecondsPerQuestion = 10; 
-
+  balloons: any[] = [];
  
   timeLeftInSeconds = 0;
   timerInterval: any;
@@ -34,7 +34,6 @@ export class QuestionComponent {
       this.section = params['section'];
       this.grade = params['grade'];
       this.subject = params['subject'];
-      console.log('تم استلام:', this.section, this.grade, this.subject);
     });
   }
 
@@ -44,17 +43,15 @@ export class QuestionComponent {
       this.grade = params['grade'];
       this.subject = params['subject'];
   
-      console.log('تم استلام:', this.section, this.grade, this.subject);
   
       const sectionData = this.questionsData[this.section];
       const gradeData = sectionData?.[this.grade];
       this.filteredQuestions = gradeData?.[this.subject] || [];
   
-      console.log('الأسئلة المحملة:', this.filteredQuestions);
   
-      // تحديد الوقت بناءً على عدد الأسئلة
       const totalTime = this.filteredQuestions.length * this.timerSecondsPerQuestion;
-      this.timeLeftInSeconds = Math.max(totalTime, 180);
+
+      this.timeLeftInSeconds = Math.max(totalTime, 10);
   
       this.startTimer();
   
@@ -67,6 +64,7 @@ export class QuestionComponent {
   
 
   startTimer() {
+
     this.warningStarted = false; // Reset التحذير مع بداية التايمر
     const warningThreshold = this.timeLeftInSeconds * 0.3;
     this.timerInterval = setInterval(() => {
@@ -80,6 +78,7 @@ export class QuestionComponent {
         clearInterval(this.timerInterval);
         this.timeUp = true;
       }
+
     }, 1000);
   }
   
@@ -87,16 +86,21 @@ export class QuestionComponent {
   startWarningEffect() {
     this.warningStarted = true;
   }
-
   restartExam() {
-    clearInterval(this.timerInterval); // مهم جدًا!
+    clearInterval(this.timerInterval); // نوقف التايمر الحالي    
     this.currentQuestionIndex = 0;
     this.isCorrectAnswer = false;
     this.showFeedback = false;
     this.showReward = false;
     this.timeUp = false;
+  
+    // أهم حاجة نعيد ضبط الوقت قبل بدء التايمر من تاني
+    const totalTime = this.filteredQuestions.length * this.timerSecondsPerQuestion;
+    this.timeLeftInSeconds = Math.max(totalTime, 10);
+  
     this.startTimer();
   }
+  
 
 
 
@@ -280,14 +284,12 @@ export class QuestionComponent {
       
         // لما النطق يخلص، شغّلي التصفيق
         utterAnswer.onend = () => {
-          console.log('✅ النطق خلص.. دلوقتي هنشغل التصفيق');
           this.correctAudio.currentTime = 0;
           this.correctAudio.play();
         };
       
         // لو في خطأ في النطق
         utterAnswer.onerror = (e) => {
-          console.error('❌ خطأ في النطق:', e);
         };
       
         // نوقف أي نطق شغّال قبل كده
@@ -310,14 +312,12 @@ export class QuestionComponent {
       
         // لما النطق يخلص، شغّلي التصفيق
         utterAnswer.onend = () => {
-          console.log('✅ النطق خلص.. دلوقتي هنشغل التصفيق');
           this.correctAudio.currentTime = 0;
           this.correctAudio.play();
         };
       
         // لو في خطأ في النطق
         utterAnswer.onerror = (e) => {
-          console.error('❌ خطأ في النطق:', e);
         };
       
         // نوقف أي نطق شغّال قبل كده
@@ -366,6 +366,11 @@ export class QuestionComponent {
       if (this.currentQuestionIndex === this.filteredQuestions.length - 1) {
         // آخر سؤال
         this.examCompleted = true;
+        let balloons = Array(5).fill(null);
+        // عدد البالونات التي ستظهر
+  
+        // تابع لإتمام الامتحان
+        this.completeExam();
         this.timeUp = true; // عشان نوقف عرض باقي الأسئلة
         return;
       }
@@ -376,6 +381,11 @@ export class QuestionComponent {
       this.speakQuestion();
       this.showReward = false;
     }
+  }
+  completeExam() {
+    this.examCompleted = true;
+    let audio = new Audio('assets/music/congratulations.mp3');
+    audio.play();
   }
 
   playSound() {

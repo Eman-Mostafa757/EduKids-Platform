@@ -2,922 +2,922 @@ export const questionsData = {
   عربي: {
     KG1: {
       عربي: [
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/جمل.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "جَ" },
-            { type: "text", value: "جُ" },
-            { type: "text", value: "جِ" }
-          ],
-          correctAnswer: "جَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/جسر.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "جَ" },
-            { type: "text", value: "جُ" },
-            { type: "text", value: "جِ" }
-          ],
-          correctAnswer: "جِ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "جبن"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "جـ" },
-            { type: "text", value: "ـجـ" },
-            { type: "text", value: "ـج" }
-          ],
-          correctAnswer: "جـ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "درج"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ج" },
-            { type: "text", value: "ـجـ" },
-            { type: "text", value: "ـج" }
-          ],
-          correctAnswer: "ج"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/زر.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "زَ" },
-            { type: "text", value: "زُ" },
-            { type: "text", value: "زِ" }
-          ],
-          correctAnswer: "زِ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/زبد.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "زَ" },
-            { type: "text", value: "زُ" },
-            { type: "text", value: "زِ" }
-          ],
-          correctAnswer: "زُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
-            image: "assets/arabic/جزر.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "جزر" },
-            { type: "text", value: "زبد" },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/جمل.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "جَ" },
+        //     { type: "text", value: "جُ" },
+        //     { type: "text", value: "جِ" }
+        //   ],
+        //   correctAnswer: "جَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/جسر.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "جَ" },
+        //     { type: "text", value: "جُ" },
+        //     { type: "text", value: "جِ" }
+        //   ],
+        //   correctAnswer: "جِ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "جبن"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "جـ" },
+        //     { type: "text", value: "ـجـ" },
+        //     { type: "text", value: "ـج" }
+        //   ],
+        //   correctAnswer: "جـ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "درج"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ج" },
+        //     { type: "text", value: "ـجـ" },
+        //     { type: "text", value: "ـج" }
+        //   ],
+        //   correctAnswer: "ج"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/زر.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "زَ" },
+        //     { type: "text", value: "زُ" },
+        //     { type: "text", value: "زِ" }
+        //   ],
+        //   correctAnswer: "زِ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/زبد.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "زَ" },
+        //     { type: "text", value: "زُ" },
+        //     { type: "text", value: "زِ" }
+        //   ],
+        //   correctAnswer: "زُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
+        //     image: "assets/arabic/جزر.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "جزر" },
+        //     { type: "text", value: "زبد" },
 
-          ],
-          correctAnswer: "جزر"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "زرافة"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ز" },
-            { type: "text", value: "ـز" },
+        //   ],
+        //   correctAnswer: "جزر"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "زرافة"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ز" },
+        //     { type: "text", value: "ـز" },
 
-          ],
-          correctAnswer: "ز"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/ديك.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "دُ" },
-            { type: "text", value: "دَ" },
-            { type: "text", value: "دِ" },
-          ],
-          correctAnswer: "دِ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/دراجة.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "دُ" },
-            { type: "text", value: "دَ" },
-            { type: "text", value: "دِ" },
-          ],
-          correctAnswer: "دَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "أسد"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "د" },
-            { type: "text", value: "ـد" }
-          ],
-          correctAnswer: "ـد"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
+        //   ],
+        //   correctAnswer: "ز"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/ديك.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "دُ" },
+        //     { type: "text", value: "دَ" },
+        //     { type: "text", value: "دِ" },
+        //   ],
+        //   correctAnswer: "دِ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/دراجة.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "دُ" },
+        //     { type: "text", value: "دَ" },
+        //     { type: "text", value: "دِ" },
+        //   ],
+        //   correctAnswer: "دَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "أسد"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "د" },
+        //     { type: "text", value: "ـد" }
+        //   ],
+        //   correctAnswer: "ـد"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
             
-            image: "assets/arabic/دب.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "أسد" },
-            { type: "text", value: "دب" }
-          ],
-          correctAnswer: "دب"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/قط.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "قَ" },
-            { type: "text", value: "قِ" },
-            { type: "text", value: "قُ" }
-          ],
-          correctAnswer: "قِ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/قفاذ.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "قَ" },
-            { type: "text", value: "قِ" },
-            { type: "text", value: "قُ" }
-          ],
-          correctAnswer: "قُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "طبق"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ق" },
-            { type: "text", value: "ـقـ" },
-            { type: "text", value: "ـق" }
-          ],
-          correctAnswer: "ـق"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "بقر"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ق" },
-            { type: "text", value: "ـقـ" },
-            { type: "text", value: "ـق" }
-          ],
-          correctAnswer: "ـقـ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
+        //     image: "assets/arabic/دب.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "أسد" },
+        //     { type: "text", value: "دب" }
+        //   ],
+        //   correctAnswer: "دب"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/قط.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "قَ" },
+        //     { type: "text", value: "قِ" },
+        //     { type: "text", value: "قُ" }
+        //   ],
+        //   correctAnswer: "قِ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/قفاذ.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "قَ" },
+        //     { type: "text", value: "قِ" },
+        //     { type: "text", value: "قُ" }
+        //   ],
+        //   correctAnswer: "قُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "طبق"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ق" },
+        //     { type: "text", value: "ـقـ" },
+        //     { type: "text", value: "ـق" }
+        //   ],
+        //   correctAnswer: "ـق"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "بقر"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ق" },
+        //     { type: "text", value: "ـقـ" },
+        //     { type: "text", value: "ـق" }
+        //   ],
+        //   correctAnswer: "ـقـ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
 
-            image: "assets/arabic/قرد.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "قرد" },
-            { type: "text", value: "قلم" },
+        //     image: "assets/arabic/قرد.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "قرد" },
+        //     { type: "text", value: "قلم" },
 
-          ],
-          correctAnswer: "قرد"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/طبق.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "طَ" },
-            { type: "text", value: "طِ" },
-            { type: "text", value: "طُ" }
-          ],
-          correctAnswer: "طَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/طفل.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "طَ" },
-            { type: "text", value: "طِ" },
-            { type: "text", value: "طُ" }
-          ],
-          correctAnswer: "طِ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/طيور.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "طَ" },
-            { type: "text", value: "طِ" },
-            { type: "text", value: "طُ" }
-          ],
-          correctAnswer: "طُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/شمس.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "شَ" },
-            { type: "text", value: "شِ" },
-            { type: "text", value: "شُ" }
-          ],
-          correctAnswer: "شَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/شباك.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "شَ" },
-            { type: "text", value: "شِ" },
-            { type: "text", value: "شُ" }
-          ],
-          correctAnswer: "شُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "ريشة"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ـشـ" },
-            { type: "text", value: "شـ" },
+        //   ],
+        //   correctAnswer: "قرد"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/طبق.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "طَ" },
+        //     { type: "text", value: "طِ" },
+        //     { type: "text", value: "طُ" }
+        //   ],
+        //   correctAnswer: "طَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/طفل.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "طَ" },
+        //     { type: "text", value: "طِ" },
+        //     { type: "text", value: "طُ" }
+        //   ],
+        //   correctAnswer: "طِ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/طيور.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "طَ" },
+        //     { type: "text", value: "طِ" },
+        //     { type: "text", value: "طُ" }
+        //   ],
+        //   correctAnswer: "طُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/شمس.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "شَ" },
+        //     { type: "text", value: "شِ" },
+        //     { type: "text", value: "شُ" }
+        //   ],
+        //   correctAnswer: "شَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/شباك.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "شَ" },
+        //     { type: "text", value: "شِ" },
+        //     { type: "text", value: "شُ" }
+        //   ],
+        //   correctAnswer: "شُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "ريشة"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ـشـ" },
+        //     { type: "text", value: "شـ" },
 
-          ],
-          correctAnswer: "ـشـ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
-            image: "assets/arabic/شجر.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "شجر" },
-            { type: "text", value: "شمس" },
+        //   ],
+        //   correctAnswer: "ـشـ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
+        //     image: "assets/arabic/شجر.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "شجر" },
+        //     { type: "text", value: "شمس" },
 
-          ],
-          correctAnswer: "شجر"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/ذرة.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ذَ" },
-            { type: "text", value: "ذِ" },
-            { type: "text", value: "ذُ" }
-          ],
-          correctAnswer: "ذُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/ذئب.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ذَ" },
-            { type: "text", value: "ذِ" },
-            { type: "text", value: "ذُ" }
-          ],
-          correctAnswer: "ذِ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
-            image: "assets/arabic/اذن.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "أذن" },
-            { type: "text", value: "ذقن" },
+        //   ],
+        //   correctAnswer: "شجر"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/ذرة.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ذَ" },
+        //     { type: "text", value: "ذِ" },
+        //     { type: "text", value: "ذُ" }
+        //   ],
+        //   correctAnswer: "ذُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/ذئب.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ذَ" },
+        //     { type: "text", value: "ذِ" },
+        //     { type: "text", value: "ذُ" }
+        //   ],
+        //   correctAnswer: "ذِ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
+        //     image: "assets/arabic/اذن.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "أذن" },
+        //     { type: "text", value: "ذقن" },
 
-          ],
-          correctAnswer: "أذن"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/عنب.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "عَ" },
-            { type: "text", value: "عِ" },
-            { type: "text", value: "عُ" }
-          ],
-          correctAnswer: "عِ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/عصفور.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "عَ" },
-            { type: "text", value: "عِ" },
-            { type: "text", value: "عُ" }
-          ],
-          correctAnswer: "عُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "عسل"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "عـ" },
-            { type: "text", value: "ـعـ" },
-            { type: "text", value: "ـع" },
-          ],
-          correctAnswer: "عـ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "شَمع"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "عـ" },
-            { type: "text", value: "ـعـ" },
-            { type: "text", value: "ـع" },
-          ],
-          correctAnswer: "ـع"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
-            image: "assets/arabic/علم.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "علم" },
-            { type: "text", value: "عسل" },
-          ],
-          correctAnswer: "علم"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/ولد.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "وَ" },
-            { type: "text", value: "وِ" },
-            { type: "text", value: "وُ" }
-          ],
-          correctAnswer: "وَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/وسادة.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "وَ" },
-            { type: "text", value: "وِ" },
-            { type: "text", value: "وُ" }
-          ],
-          correctAnswer: "وِ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "لوز"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "و" },
-            { type: "text", value: "ـو" },
+        //   ],
+        //   correctAnswer: "أذن"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/عنب.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "عَ" },
+        //     { type: "text", value: "عِ" },
+        //     { type: "text", value: "عُ" }
+        //   ],
+        //   correctAnswer: "عِ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/عصفور.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "عَ" },
+        //     { type: "text", value: "عِ" },
+        //     { type: "text", value: "عُ" }
+        //   ],
+        //   correctAnswer: "عُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "عسل"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "عـ" },
+        //     { type: "text", value: "ـعـ" },
+        //     { type: "text", value: "ـع" },
+        //   ],
+        //   correctAnswer: "عـ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "شَمع"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "عـ" },
+        //     { type: "text", value: "ـعـ" },
+        //     { type: "text", value: "ـع" },
+        //   ],
+        //   correctAnswer: "ـع"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
+        //     image: "assets/arabic/علم.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "علم" },
+        //     { type: "text", value: "عسل" },
+        //   ],
+        //   correctAnswer: "علم"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/ولد.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "وَ" },
+        //     { type: "text", value: "وِ" },
+        //     { type: "text", value: "وُ" }
+        //   ],
+        //   correctAnswer: "وَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/وسادة.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "وَ" },
+        //     { type: "text", value: "وِ" },
+        //     { type: "text", value: "وُ" }
+        //   ],
+        //   correctAnswer: "وِ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "لوز"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "و" },
+        //     { type: "text", value: "ـو" },
 
-          ],
-          correctAnswer: "ـو"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/ثعبان.jpg"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ثَ" },
-            { type: "text", value: "ثُ" },
-            { type: "text", value: "ثِ" }
-          ],
-          correctAnswer: "ثُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/ثعلب.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ثَ" },
-            { type: "text", value: "ثُ" },
-            { type: "text", value: "ثِ" }
-          ],
-          correctAnswer: "ثَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "كمثري"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ـثـ" },
-            { type: "text", value: "ـث" },
+        //   ],
+        //   correctAnswer: "ـو"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/ثعبان.jpg"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ثَ" },
+        //     { type: "text", value: "ثُ" },
+        //     { type: "text", value: "ثِ" }
+        //   ],
+        //   correctAnswer: "ثُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/ثعلب.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ثَ" },
+        //     { type: "text", value: "ثُ" },
+        //     { type: "text", value: "ثِ" }
+        //   ],
+        //   correctAnswer: "ثَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "كمثري"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ـثـ" },
+        //     { type: "text", value: "ـث" },
 
-          ],
-          correctAnswer: "ـثـ"
+        //   ],
+        //   correctAnswer: "ـثـ"
 
-        },
-        {
-          content: {
-            audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
-            image: "assets/arabic/ثور.png"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ثور" },
-            { type: "text", value: "ثلج" },
-          ],
-          correctAnswer: "ثور"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/خيار.jpg"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "خَ" },
-            { type: "text", value: "خُ" },
-            { type: "text", value: "خِ" }
-          ],
-          correctAnswer: "خِ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/خبز.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "خَ" },
-            { type: "text", value: "خُ" },
-            { type: "text", value: "خِ" }
-          ],
-          correctAnswer: "خُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "نخل"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "خـ" },
-            { type: "text", value: "ـخـ" },
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
+        //     image: "assets/arabic/ثور.png"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ثور" },
+        //     { type: "text", value: "ثلج" },
+        //   ],
+        //   correctAnswer: "ثور"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/خيار.jpg"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "خَ" },
+        //     { type: "text", value: "خُ" },
+        //     { type: "text", value: "خِ" }
+        //   ],
+        //   correctAnswer: "خِ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/خبز.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "خَ" },
+        //     { type: "text", value: "خُ" },
+        //     { type: "text", value: "خِ" }
+        //   ],
+        //   correctAnswer: "خُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "نخل"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "خـ" },
+        //     { type: "text", value: "ـخـ" },
 
-          ],
-          correctAnswer: "ـخـ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "بطيخ"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "خـ" },
-            { type: "text", value: "ـخ" },
+        //   ],
+        //   correctAnswer: "ـخـ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "بطيخ"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "خـ" },
+        //     { type: "text", value: "ـخ" },
 
-          ],
-          correctAnswer: "ـخ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
-            image: "assets/arabic/خس.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "أخ" },
-            { type: "text", value: "خَس" },
-          ],
-          correctAnswer: "خَس"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/صقر.jpg"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "صَ" },
-            { type: "text", value: "صُ" },
-            { type: "text", value: "صِ" }
-          ],
-          correctAnswer: "صَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/صنبور.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "صَ" },
-            { type: "text", value: "صُ" },
-            { type: "text", value: "صِ" }
-          ],
-          correctAnswer: "صُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "مقص"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "صـ" },
-            { type: "text", value: "ـص" },
+        //   ],
+        //   correctAnswer: "ـخ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
+        //     image: "assets/arabic/خس.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "أخ" },
+        //     { type: "text", value: "خَس" },
+        //   ],
+        //   correctAnswer: "خَس"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/صقر.jpg"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "صَ" },
+        //     { type: "text", value: "صُ" },
+        //     { type: "text", value: "صِ" }
+        //   ],
+        //   correctAnswer: "صَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/صنبور.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "صَ" },
+        //     { type: "text", value: "صُ" },
+        //     { type: "text", value: "صِ" }
+        //   ],
+        //   correctAnswer: "صُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "مقص"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "صـ" },
+        //     { type: "text", value: "ـص" },
 
-          ],
-          correctAnswer: "ـص"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/ضرس.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ضَ" },
-            { type: "text", value: "ضِ" },
-            { type: "text", value: "ضُ" }
-          ],
-          correctAnswer: "ضِ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/ضفدع.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ضَ" },
-            { type: "text", value: "ضِ" },
-            { type: "text", value: "ضُ" }
-          ],
-          correctAnswer: "ضُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "ضَبع"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ضـ" },
-            { type: "text", value: "ـضـ" },
+        //   ],
+        //   correctAnswer: "ـص"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/ضرس.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ضَ" },
+        //     { type: "text", value: "ضِ" },
+        //     { type: "text", value: "ضُ" }
+        //   ],
+        //   correctAnswer: "ضِ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/ضفدع.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ضَ" },
+        //     { type: "text", value: "ضِ" },
+        //     { type: "text", value: "ضُ" }
+        //   ],
+        //   correctAnswer: "ضُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "ضَبع"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ضـ" },
+        //     { type: "text", value: "ـضـ" },
 
-          ],
-          correctAnswer: "ضـ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "بيض"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ضـ" },
-            { type: "text", value: "ـض" },
+        //   ],
+        //   correctAnswer: "ضـ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "بيض"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ضـ" },
+        //     { type: "text", value: "ـض" },
 
-          ],
-          correctAnswer: "ـض"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/كتكوت.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "كَ" },
-            { type: "text", value: "كُ" },
-            { type: "text", value: "كِ" }
-          ],
-          correctAnswer: "كَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/كرة.png"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "كَ" },
-            { type: "text", value: "كُ" },
-            { type: "text", value: "كِ" }
-          ],
-          correctAnswer: "كُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "سمك"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "كـ" },
-            { type: "text", value: "ـك" },
+        //   ],
+        //   correctAnswer: "ـض"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/كتكوت.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "كَ" },
+        //     { type: "text", value: "كُ" },
+        //     { type: "text", value: "كِ" }
+        //   ],
+        //   correctAnswer: "كَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/كرة.png"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "كَ" },
+        //     { type: "text", value: "كُ" },
+        //     { type: "text", value: "كِ" }
+        //   ],
+        //   correctAnswer: "كُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "سمك"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "كـ" },
+        //     { type: "text", value: "ـك" },
 
-          ],
-          correctAnswer: "ـك"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "كتاب"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "كـ" },
-            { type: "text", value: "ـك" },
+        //   ],
+        //   correctAnswer: "ـك"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "كتاب"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "كـ" },
+        //     { type: "text", value: "ـك" },
 
-          ],
-          correctAnswer: "كـ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
-            image: "assets/arabic/كلب.jpg"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "كلب" },
-            { type: "text", value: "سَمك" },
-          ],
-          correctAnswer: "كلب"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/يقطين.jpg"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "يَ" },
-            { type: "text", value: "يِ" },
-            { type: "text", value: "يُ" }
-          ],
-          correctAnswer: "يَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/يد.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "يَ" },
-            { type: "text", value: "يِ" },
-            { type: "text", value: "يُ" }
-          ],
-          correctAnswer: "يَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
-            image: "assets/arabic/بيت.jpg"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "زيت" },
-            { type: "text", value: "بيت" },
-          ],
-          correctAnswer: "بيت"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "عين"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "يـ" },
-            { type: "text", value: "ـيـ" },
+        //   ],
+        //   correctAnswer: "كـ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
+        //     image: "assets/arabic/كلب.jpg"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "كلب" },
+        //     { type: "text", value: "سَمك" },
+        //   ],
+        //   correctAnswer: "كلب"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/يقطين.jpg"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "يَ" },
+        //     { type: "text", value: "يِ" },
+        //     { type: "text", value: "يُ" }
+        //   ],
+        //   correctAnswer: "يَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/يد.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "يَ" },
+        //     { type: "text", value: "يِ" },
+        //     { type: "text", value: "يُ" }
+        //   ],
+        //   correctAnswer: "يَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/انظر الي الصورة التي امامك.mp3",
+        //     image: "assets/arabic/بيت.jpg"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "زيت" },
+        //     { type: "text", value: "بيت" },
+        //   ],
+        //   correctAnswer: "بيت"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "عين"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "يـ" },
+        //     { type: "text", value: "ـيـ" },
 
-          ],
-          correctAnswer: "ـيـ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/هرم.jpg"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "هـَ" },
-            { type: "text", value: "هـِ" },
-            { type: "text", value: "هـُ" },
+        //   ],
+        //   correctAnswer: "ـيـ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/هرم.jpg"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "هـَ" },
+        //     { type: "text", value: "هـِ" },
+        //     { type: "text", value: "هـُ" },
 
-          ],
-          correctAnswer: "هـَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/هلال.jpg"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "هـَ" },
-            { type: "text", value: "هـِ" },
-            { type: "text", value: "هـُ" },
+        //   ],
+        //   correctAnswer: "هـَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/هلال.jpg"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "هـَ" },
+        //     { type: "text", value: "هـِ" },
+        //     { type: "text", value: "هـُ" },
 
-          ],
-          correctAnswer: "هـِ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/هدهد.jpg"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "هـَ" },
-            { type: "text", value: "هـِ" },
-            { type: "text", value: "هـُ" },
+        //   ],
+        //   correctAnswer: "هـِ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/هدهد.jpg"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "هـَ" },
+        //     { type: "text", value: "هـِ" },
+        //     { type: "text", value: "هـُ" },
 
-          ],
-          correctAnswer: "هـُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "وجه"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ه" },
-            { type: "text", value: "ـه" },
-            { type: "text", value: "ـهـ" }
+        //   ],
+        //   correctAnswer: "هـُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "وجه"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ه" },
+        //     { type: "text", value: "ـه" },
+        //     { type: "text", value: "ـهـ" }
 
-          ],
-          correctAnswer: "ـه"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "نهر"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "هـ" },
-            { type: "text", value: "ـه" },
-            { type: "text", value: "ـهـ" }
+        //   ],
+        //   correctAnswer: "ـه"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "نهر"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "هـ" },
+        //     { type: "text", value: "ـه" },
+        //     { type: "text", value: "ـهـ" }
 
-          ],
-          correctAnswer: "ـهـ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/غسالة.png"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "غَ" },
-            { type: "text", value: "غِ" },
-            { type: "text", value: "غُ" },
+        //   ],
+        //   correctAnswer: "ـهـ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/غسالة.png"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "غَ" },
+        //     { type: "text", value: "غِ" },
+        //     { type: "text", value: "غُ" },
 
-          ],
-          correctAnswer: "غَ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/غصن.png"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "غَ" },
-            { type: "text", value: "غِ" },
-            { type: "text", value: "غُ" },
+        //   ],
+        //   correctAnswer: "غَ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/غصن.png"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "غَ" },
+        //     { type: "text", value: "غِ" },
+        //     { type: "text", value: "غُ" },
 
-          ],
-          correctAnswer: "غُ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "غَزال"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "غـ" },
-            { type: "text", value: "غ" },
-            { type: "text", value: "ـغ" }
+        //   ],
+        //   correctAnswer: "غُ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "غَزال"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "غـ" },
+        //     { type: "text", value: "غ" },
+        //     { type: "text", value: "ـغ" }
 
-          ],
-          correctAnswer: "غـ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
-            text: "صَمغ"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "غـ" },
-            { type: "text", value: "غ" },
-            { type: "text", value: "ـغ" }
+        //   ],
+        //   correctAnswer: "غـ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",
+        //     text: "صَمغ"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "غـ" },
+        //     { type: "text", value: "غ" },
+        //     { type: "text", value: "ـغ" }
 
-          ],
-          correctAnswer: "ـغ"
-        },
-        {
-          content: {
-            audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
-            image: "assets/arabic/ظرف.jfif"
-          },
-          language: "ar-EG",
-          options: [
-            { type: "text", value: "ظَ" },
-            { type: "text", value: "ظِ" },
-            { type: "text", value: "ظُ" },
+        //   ],
+        //   correctAnswer: "ـغ"
+        // },
+        // {
+        //   content: {
+        //     audio:"assets/audio/question/عربي/اختر الحرف المناسب.mp3",
+        //     image: "assets/arabic/ظرف.jfif"
+        //   },
+        //   language: "ar-EG",
+        //   options: [
+        //     { type: "text", value: "ظَ" },
+        //     { type: "text", value: "ظِ" },
+        //     { type: "text", value: "ظُ" },
 
-          ],
-          correctAnswer: "ظَ"
-        },
+        //   ],
+        //   correctAnswer: "ظَ"
+        // },
         {
           content: {
             audio:"assets/audio/question/عربي/أقرأ الكلمة واِختر الحَرْف المناسب.mp3",

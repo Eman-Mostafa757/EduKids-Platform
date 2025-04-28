@@ -77,8 +77,8 @@
 <!-- في حالة انتهاء الوقت -->
 <div *ngIf="timeUp && !examCompleted" class="time-up-message">
   <img src="assets/images/2.png" alt="Time's up" class="reward-img" style="width: 150px; margin-bottom: 6px;">
-  <h1>⏰   الوقت خلص</h1>
-  <p styl e="font-size: 22px; margin-top: 2px;"> 👏 ولا يهمك ... تقدر تحاول تاني</p>
+  <h1 style="color: #f1eaea;">⏰   الوقت خلص</h1>
+  <p style="font-size: 22px; margin-top: 2px; color: #f1eaea;" > 👏 ولا يهمك ... تقدر تحاول تاني</p>
   <p style="font-size: 20px; color: #f1eaea;">  😊 التجربة أهم من النتيجة</p>
   <button class="retry-button" (click)="restartExam()"> 🔁 جرّب تاني</button>
 </div>

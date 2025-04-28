@@ -11,4 +11,5 @@ import { SubjectSelectionComponent } from './subject-selection/subject-selection
 })
 export class AppComponent {
   title = 'activity_Project';
+  
 }

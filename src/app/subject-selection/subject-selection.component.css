@@ -1,95 +1,99 @@
 .container {
-    background: linear-gradient(145deg, #fce4ec, #fff);
-    padding: 25px;
-    margin: 30px auto;
-    max-width: 420px;
-    border-radius: 24px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-    direction: rtl;
-    font-family: 'Cairo', sans-serif;
-    text-align: center;
-    border: 2px solid #f8bbd0;
-    animation: fadeIn 0.6s ease-in-out;
+  background: linear-gradient(145deg, #fce4ec, #fff);
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 420px;
+  border-radius: 24px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid #f8bbd0;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+label {
+  display: block;
+  align-items: center;
+  justify-content: flex-start; 
+  gap: 8px;
+  margin-bottom: 12px;
+  font-size: 1.2em;
+  color: #d81b60;
+  font-weight: bold;
+}
+
+select,
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 1.1em;
+  border-radius: 12px;
+  border: none;
+  background-color: #f8bbd0;
+  color: #4a148c;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+select:hover,
+button:hover {
+  background-color: #f48fb1;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+/* تأثير دخول ناعم */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    margin: 20px 10px;
+    max-width: 100%;
+  }
+
   label {
-    display: block;
-    margin-bottom: 12px;
-    font-size: 1.2em;
-    color: #d81b60;
-    font-weight: bold;
+    font-size: 1em;
   }
-  
+
   select,
   button {
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    font-size: 1.1em;
-    border-radius: 12px;
-    border: none;
-    background-color: #f8bbd0;
-    color: #4a148c;
-    transition: 0.3s;
-    font-weight: bold;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 10px;
   }
-  
-  select:hover,
-  button:hover {
-    background-color: #f48fb1;
-    transform: scale(1.02);
-    cursor: pointer;
-  }
-  
-  /* تأثير دخول ناعم */
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
+}
 
-  @media (max-width: 768px) {
-    .container {
-      padding: 20px;
-      margin: 20px 10px;
-      max-width: 100%;
-    }
-  
-    label {
-      font-size: 1em;
-    }
-  
-    select,
-    button {
-      font-size: 1em;
-      padding: 10px;
-      border-radius: 10px;
-    }
+@media (max-width: 480px) {
+  .container {
+    padding: 16px;
   }
-  
-  @media (max-width: 480px) {
-    .container {
-      padding: 16px;
-    }
-  
-    label {
-      font-size: 0.95em;
-    }
-  
-    select,
-    button {
-      font-size: 0.95em;
-      padding: 8px;
-    }
-  
-    p {
-      font-size: 0.9em;
-    }
+
+  label {
+    font-size: 0.95em;
   }
-  
+
+  select,
+  button {
+    font-size: 0.95em;
+    padding: 8px;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}

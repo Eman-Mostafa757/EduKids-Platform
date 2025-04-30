@@ -3029,7 +3029,7 @@ export const questionsData = {
             { type: "text", value: "٣" },
           ],
 
-          correctAnswer: "١٧"
+          correctAnswer: "٣"
         },
         {
           content: {
@@ -9444,7 +9444,7 @@ export const questionsData = {
               { type: 'text', value: 'Piano' },
               { type: 'text', value: 'Guitar' },
             ],
-            correctAnswer: 'Paino'
+            correctAnswer: 'Piano'
           },
           {
             content: { 

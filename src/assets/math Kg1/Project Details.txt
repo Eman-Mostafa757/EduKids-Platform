@@ -1,0 +1,52 @@
+header :
+for writer : {home , create channel , stories ,about,contact, price plans}
+for reader : {home ,stories , about,contact,}
+channels
+-----------------------------
+hearo:
+write > button انشر كتابك
+reader > none
+----------------------------- 			eng-rana
+الروايات الاكثر شعبية 
+جميع الروايات
+خدماتنا
+من نحن
+خطط الدفع
+footer
+============================================================
+جميع الروايات :
+
+التصنيفات 
+المؤلف
+===============================		 eng -eman
+تفاصيل الرواية 
+===========================================================
+Registration template
+Security					eng-nagham
+Dashboard
+===========================================================
+Create channel : 
+================
+Channels 
+=================>
+channel :
+
+image
+write name				eng-altayeb
+rating
+description
+>>stories for this channel
+===========================================================
+user profile
+>writer:
+main data {name , email , phone , ...} (show , update)  eng-esraa
+channels
+-------------------------
+>Reader
+============================================================
+fonts:
+cairo for heading (h1 > h6)
+amiri 
+============================
+color palette : https://coolors.co/palettes/trending
+===========================================

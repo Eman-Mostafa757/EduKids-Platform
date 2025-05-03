@@ -6833,7 +6833,7 @@ export const questionsData = {
             { type: 'text', value: 'plant' },
             { type: 'text', value: 'leaves' },
           ],
-          correctAnswer: 'ship'
+          correctAnswer: 'leaves'
         },
         {
           content: { 
